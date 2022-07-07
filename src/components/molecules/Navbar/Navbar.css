@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+a {
+    color: black;
+    margin:  0 10px 0 0;
+}
+
+.nav-link {
+    color: black;
+    margin:  0 10px 0 0;
+}
+
+.active {
+    color: rgb(34, 34, 34);
+    /* font-size: 25px; */
+}
