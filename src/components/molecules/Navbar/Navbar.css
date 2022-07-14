@@ -2,20 +2,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 15px;
+    margin: 1.5vmin;
 }
 
 a {
     color: black;
-    margin:  0 10px 0 0;
+    margin:  0 1vmin 0 0;
+    font-size: 1.8vmin;
 }
 
 .nav-link {
     color: black;
-    margin:  0 10px 0 0;
+    margin:  0 1.5vw 0 0;
+
 }
 
 .active {
     color: rgb(34, 34, 34);
-    /* font-size: 25px; */
+}
+
+img {
+    margin: 0 0 0 1vmin;
+    width: 5vmin;
+    height: 4vmin;
 }

@@ -1,7 +1,10 @@
 .home-screen {
-    margin: 15px 15px 115px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.h1 {
-    margin: 50px;
+.home-screen > h1 {
+    font-size: 7vh;
+    margin: 3vh 0 2vh 0;
 }
