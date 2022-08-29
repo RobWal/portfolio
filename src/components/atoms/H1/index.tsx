@@ -6,7 +6,7 @@ type H1 = {
 
 const H1 = ({text}: H1) => {
     return (
-        <h1>{text}</h1>
+        <h1 className="h1">{text}</h1>
     )
 }
 

@@ -1,3 +1,4 @@
-H1 {
-    margin: 25px 0 0 0;
+.h1 {
+    margin: 3vmin 0 0 0;
+    font-size: 4.2vmin;
 }

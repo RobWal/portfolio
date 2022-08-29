@@ -5,8 +5,8 @@
     margin: 0;
     padding: 0;
     bottom: 0;
-    position: fixed;
-    height: 100px;
+    /* position: fixed; */
+    height: 10vmin;
     width: 100%;
     display: flex;
     justify-content: center;

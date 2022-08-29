@@ -1,16 +1,16 @@
+import H1 from '../../atoms/H1';
+import H2 from '../../atoms/H2';
+import Featured from '../../organisms/Featured';
 import './HomeScreen.css'
 
 
 const HomeScreen = () => {
     return (
         <div className="home-screen">
-            <h1>Hi there!</h1>
-            <h2>I'm Robert Walerczak, a software engineer based in Melbourne</h2>
-            <h1>HomeScreen</h1>
-            <p>asd</p>
-            <p>asd</p>
-            <h1>HomeScreen</h1>
-            <h1>HomeScreen</h1>
+            <H1 text={'Hello!'}></H1>
+            <H2 text={'I\'m Robert Walerczak, a Melbourne based software engineer'}></H2>
+            <H1 text={'Featured Projects'}></H1>
+            <Featured></Featured>
         </div>
     )
 }

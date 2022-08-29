@@ -12,13 +12,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-          <Routes>
-            <Route path="/" element={<HomeScreen />}/>
-            <Route path="/about" element={<About />}/>
-            <Route path="/contact" element={<Contact />}/>
-            <Route path="/projects" element={<ProjectInformation />}/>
-            <Route path="/*" element={<PageNotFound />}/>
-          </Routes>
+        <div className="content">
+            <Routes>
+              <Route path="/" element={<HomeScreen />}/>
+              <Route path="/about" element={<About />}/>
+              <Route path="/contact" element={<Contact />}/>
+              <Route path="/projects" element={<ProjectInformation />}/>
+              <Route path="/*" element={<PageNotFound />}/>
+            </Routes>
+        </div>
       <Footer />
     </div>
   );
