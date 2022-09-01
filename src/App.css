@@ -5,7 +5,8 @@
 } */
 
 .content {
-  min-height: 800px; 
+  /* min-height: 800px;  */
+  margin: 0 0 3vmin 0;
 }
 
 .body {

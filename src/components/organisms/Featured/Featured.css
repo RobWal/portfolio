@@ -1,4 +1,6 @@
 .featured {
     display: flex;
     width: 100%;
+    padding: 2vmin 0 0 0;
+    /* background-color:blue; */
 }

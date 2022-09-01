@@ -22,7 +22,7 @@ a {
 }
 
 img {
-    margin: 0 0 0 1vmin;
+    /* margin: 0 0 0 1vmin; */
     width: 5vmin;
     height: 4vmin;
 }

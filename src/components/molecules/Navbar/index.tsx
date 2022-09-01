@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import SocialButton from '../../atoms/SocialButton';
 import './Navbar.css'
 
 
@@ -9,7 +10,11 @@ const Navbar = () => {
             <NavLink className="nav-link" to='/about'>About</NavLink>
             <NavLink className="nav-link" to='/projects'>Projects</NavLink>
             <a href = "download.png" download>Resume</a>
-            <img src = "download.png" alt="DownloadImage" width="50px" height="40px"/>
+            <a href = "download.png" download>
+                <img src = "download.png" alt="DownloadImage"/>    
+            </a>
+            {/* <SocialButton fileName="gitIcon.png" link="https://github.com/RobWal" alternate="GitHub"/>
+            <SocialButton fileName="linkedinIcon.png" link="https://www.linkedin.com/in/robert-walerczak-2524a268/" alternate="LinkedIn"/> */}
         </div>
     )
 }
