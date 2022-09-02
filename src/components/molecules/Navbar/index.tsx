@@ -1,4 +1,6 @@
 import { NavLink } from 'react-router-dom';
+import NavDownloadImage from '../../atoms/NavDownloadImage';
+import NavDownloadLink from '../../atoms/NavDownloadLink';
 import SocialButton from '../../atoms/SocialButton';
 import './Navbar.css'
 
@@ -9,10 +11,8 @@ const Navbar = () => {
             <NavLink className="nav-link" to='/'>Home</NavLink>
             <NavLink className="nav-link" to='/about'>About</NavLink>
             <NavLink className="nav-link" to='/projects'>Projects</NavLink>
-            <a href = "download.png" download>Resume</a>
-            <a href = "download.png" download>
-                <img src = "download.png" alt="DownloadImage"/>    
-            </a>
+            <NavDownloadLink text={'Resume'}></NavDownloadLink>
+            <NavDownloadImage></NavDownloadImage>
             {/* <SocialButton fileName="gitIcon.png" link="https://github.com/RobWal" alternate="GitHub"/>
             <SocialButton fileName="linkedinIcon.png" link="https://www.linkedin.com/in/robert-walerczak-2524a268/" alternate="LinkedIn"/> */}
         </div>

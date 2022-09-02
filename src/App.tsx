@@ -20,9 +20,6 @@ function App() {
               <Route path="/contact" element={<Contact />}/>
               <Route path="/projects" element={<ProjectInformation />}/>
               <Route path="/projects/deep-sea-adventure" element={<DeepSeaAdventure />}/>
-              {/* <Route path="/projects" element={<ProjectInformation />}/>
-              <Route path="/projects" element={<ProjectInformation />}/>
-              <Route path="/projects" element={<ProjectInformation />}/> */}
               <Route path="/*" element={<PageNotFound />}/>
             </Routes>
         </div>

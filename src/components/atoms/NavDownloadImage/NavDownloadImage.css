@@ -1,0 +1,10 @@
+.nav-download-image-container {
+    margin: 0.5vmin;
+    width: 4vw;
+    height: 4vh;
+}
+
+.nav-download-image {
+    width: 100%;
+    height: 100%;
+}

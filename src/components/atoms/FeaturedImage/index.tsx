@@ -3,15 +3,13 @@ import './FeaturedImage.css'
 type FeaturedImage = {
     projectImage: string,
     altProjectImageName: string,
-    link: string,
 }
 
-const FeaturedImage = ({projectImage, altProjectImageName, link}: FeaturedImage) => {
+const FeaturedImage = ({projectImage, altProjectImageName}: FeaturedImage) => {
     return (
-        <a className="featured-image-link" href={link} >
+        <div className="featured-image-link">
             <img className="featured-image" src={projectImage} alt={altProjectImageName}/>   
-        </a>
-        // <img className="featured-image" src={projectImage} alt={altProjectImageName}/>
+        </div>
     )
 }
 

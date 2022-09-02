@@ -19,7 +19,7 @@ const FeaturedProjectContainer = ({projectName, projectGithubLink, projectImage,
     return (
         <div className = 'featured-project-container'>
             {/* <H2 text={projectName}></H2> */}
-            <NavLink className="nav-link" to={link}><FeaturedImage projectImage={projectImage} altProjectImageName={altProjectImageName} link={link}/></NavLink>
+            <NavLink to={link}><FeaturedImage projectImage={projectImage} altProjectImageName={altProjectImageName}/></NavLink>
             <P1 text={projectDescription}></P1>
             <SocialButton fileName="gitIcon.png" link={projectGithubLink} alternate='GitHub Project Link'/>
         </div>
