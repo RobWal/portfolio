@@ -8,6 +8,7 @@ import DeepSeaAdventure from './components/pages/DeepSeaAdventure';
 import HomeScreen from './components/pages/HomeScreen';
 import PageNotFound from './components/pages/PageNotFound';
 import ProjectInformation from './components/pages/ProjectInformation';
+import StardewValleyFishing from './components/pages/StardewValleyFishing';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Route path="/contact" element={<Contact />}/>
               <Route path="/projects" element={<ProjectInformation />}/>
               <Route path="/projects/deep-sea-adventure" element={<DeepSeaAdventure />}/>
+              <Route path="/projects/stardew-valley-fishing" element={<StardewValleyFishing />}/>
               <Route path="/*" element={<PageNotFound />}/>
             </Routes>
         </div>
