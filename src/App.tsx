@@ -6,6 +6,7 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import DeepSeaAdventure from './components/pages/DeepSeaAdventure';
 import HomeScreen from './components/pages/HomeScreen';
+import OkayBloomer from './components/pages/OkayBloomer';
 import PageNotFound from './components/pages/PageNotFound';
 import ProjectInformation from './components/pages/ProjectInformation';
 import StardewValleyFishing from './components/pages/StardewValleyFishing';
@@ -22,6 +23,7 @@ function App() {
               <Route path="/projects" element={<ProjectInformation />}/>
               <Route path="/projects/deep-sea-adventure" element={<DeepSeaAdventure />}/>
               <Route path="/projects/stardew-valley-fishing" element={<StardewValleyFishing />}/>
+              <Route path="/projects/okay-bloomer" element={<OkayBloomer />}/>
               <Route path="/*" element={<PageNotFound />}/>
             </Routes>
         </div>

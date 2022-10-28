@@ -1,17 +1,14 @@
 .footer {
     background-color: rgb(47, 137, 255);
-    /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(47,137,255,1) 5%); */
-    
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    /* position: fixed; */
     height: 10vmin;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-attachment: scroll;
-    background-position: 0% 0%;
-    /* justify-content: space-between; */
+    margin: 5vmin 0 0 0;
+    /* Seemingly don't need these??? */
+    /* bottom: 0; */
+    /* position: absolute; */
+    /* background-attachment: scroll;
+    background-position: 0% 0%; */
 }
