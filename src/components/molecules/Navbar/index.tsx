@@ -11,6 +11,7 @@ const Navbar = () => {
             <NavLink className="nav-link" to='/'>Home</NavLink>
             <NavLink className="nav-link" to='/about'>About</NavLink>
             <NavLink className="nav-link" to='/projects'>Projects</NavLink>
+            <NavLink className="nav-link" to='/contact'>Contact</NavLink>
             <NavDownloadLink text={'Resume'}></NavDownloadLink>
             <NavDownloadImage></NavDownloadImage>
             {/* <SocialButton fileName="gitIcon.png" link="https://github.com/RobWal" alternate="GitHub"/>

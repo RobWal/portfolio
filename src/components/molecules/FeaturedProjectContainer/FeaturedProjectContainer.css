@@ -1,11 +1,22 @@
 .featured-project-container {
-    /* margin: 2vmin 0 0 0; */
-    width: 45vw;
+    margin: 5vh 2.5% 2vh 2.5%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: aquamarine;
-    border: black solid 5px;
-    height: 70vh;
+    border-radius: 5vmin;
+    /* border: black solid 5px; */
+    height: 50vh;
 }
+
+.featured-image-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 
+.featured-image {
+    width: 80%;
+} */
