@@ -10,10 +10,13 @@
 }
 
 .social-link {
-    /* margin: 0;
+    margin: 0;
     padding: 0;
     width: 3.6vmin;
-    height: 3.6vmin; */
+    height: 3.6vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-link-image {
@@ -21,7 +24,7 @@
     margin: 0;
     width: 100%;
     height: 100%;
-    border-radius: 1.5vmin;
+    /* border-radius: 1.5vmin; */
     transition: transform 0.5s;
 }
 
