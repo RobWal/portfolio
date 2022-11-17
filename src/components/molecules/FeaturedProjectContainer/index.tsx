@@ -1,10 +1,11 @@
 import FeaturedImage from '../../atoms/FeaturedImage';
 import H2 from '../../atoms/H2';
-import P1 from '../../atoms/P';
-import P from '../../atoms/P';
+import P1 from '../../atoms/P1';
+import P from '../../atoms/P1';
 import SocialButton from '../../atoms/SocialButton';
 import { NavLink } from 'react-router-dom';
 import './FeaturedProjectContainer.css'
+import H1 from '../../atoms/H1';
 
 type FeaturedProjectContainer = {
     projectName: string,
@@ -12,16 +13,21 @@ type FeaturedProjectContainer = {
     projectImage: string,
     projectDescription: string,
     altProjectImageName: string,
-    link: string,
+    navLink: string,
+    projectLiveLink: string,
 }
 
-const FeaturedProjectContainer = ({projectName, projectGithubLink, projectImage, altProjectImageName, projectDescription, link}: FeaturedProjectContainer) => {
+const FeaturedProjectContainer = ({projectName, projectGithubLink, projectLiveLink, projectImage, altProjectImageName, projectDescription, navLink}: FeaturedProjectContainer) => {
     return (
         <div className = 'featured-project-container'>
             {/* <H2 text={projectName}></H2> */}
-            <NavLink className="featured-nav-link" to={link}><FeaturedImage projectImage={projectImage} altProjectImageName={altProjectImageName}/></NavLink>
+            <NavLink className="featured-nav-link" to={navLink}><FeaturedImage projectImage={projectImage} altProjectImageName={altProjectImageName}/></NavLink>
+            <H1 text={projectName}></H1>
             <P1 text={projectDescription}></P1>
-            <SocialButton fileName="/images/gitIcon.png" link={projectGithubLink} alternate='GitHub Project Link'/>
+            <div className="featured-social-links">
+                <SocialButton fileName="/images/gitIcon.png" link={projectGithubLink} alternate='GitHub Project Link'/>
+                <SocialButton fileName="/images/liveIcon.png" link={projectLiveLink} alternate='GitHub Project Link'/>
+            </div>
         </div>
     )
 }
