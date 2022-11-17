@@ -21,6 +21,7 @@ const FeaturedProjectContainer = ({projectName, projectGithubLink, projectLiveLi
     return (
         <div className = 'featured-project-container'>
             {/* <H2 text={projectName}></H2> */}
+            {/* <div className="window-ratio"></div> */}
             <NavLink className="featured-nav-link" to={navLink}><FeaturedImage projectImage={projectImage} altProjectImageName={altProjectImageName}/></NavLink>
             <H1 text={projectName}></H1>
             <P1 text={projectDescription}></P1>

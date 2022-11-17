@@ -10,7 +10,7 @@ const Featured = () => {
             <FeaturedProjectContainer projectName={'Okay Bloomer'} navLink={'/projects/okay-bloomer'} projectGithubLink={'https://github.com/RobWal/okay-bloomer'} projectLiveLink={"https://okay-bloomer.herokuapp.com/"} projectImage={'/images/featuredOkayBloomer.png'} 
             projectDescription={'A website dedicated to helping budding gardeners on their journey!'} altProjectImageName="Okay Bloomer"></FeaturedProjectContainer>
             <FeaturedProjectContainer projectName={'Tic Tac Toe'} navLink={'/projects/tic-tac-toe'} projectGithubLink={'https://github.com/RobWal/TicTacToe'} projectLiveLink={"https://robwal.github.io/TicTacToe/"} projectImage={'/images/featuredTicTacToe.png'} 
-            projectDescription={'A two player version of the classic!'} altProjectImageName="Tic Tac Toe"></FeaturedProjectContainer>
+            projectDescription={'An online two player version of the classic Tic Tac Toe!'} altProjectImageName="Tic Tac Toe"></FeaturedProjectContainer>
             <FeaturedProjectContainer projectName={'Jaunt'} navLink={'/projects/jaunt'} projectGithubLink={'https://github.com/RobWal/Jaunt-website'} projectLiveLink={"https://jaunt-website.herokuapp.com/home"} projectImage={'/images/featuredJaunt.png'} 
             projectDescription={'A website for a TTRPG, with character creation and some game basics!'} altProjectImageName="Jaunt"></FeaturedProjectContainer>
         </div>
