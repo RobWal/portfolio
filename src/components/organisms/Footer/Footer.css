@@ -1,11 +1,11 @@
 .footer {
     background-color: rgb(47, 137, 255);
-    height: 10vmin;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5vmin 0 0 0;
+    /* margin: 5vh 0 0 0; */
     /* Seemingly don't need these??? */
     /* bottom: 0; */
     /* position: absolute; */

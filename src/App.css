@@ -4,7 +4,9 @@
 }
 
 .content {
-  min-height: 61vmin;
+  min-height: 71vh;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .body {
