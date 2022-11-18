@@ -18,10 +18,10 @@
 }
 
 
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .featured-image {
       background-color: lightblue;
       height: 28vw;
       width: 50vw;
     }
-} */
+}

@@ -20,14 +20,12 @@ type FeaturedProjectContainer = {
 const FeaturedProjectContainer = ({projectName, projectGithubLink, projectLiveLink, projectImage, altProjectImageName, projectDescription, navLink}: FeaturedProjectContainer) => {
     return (
         <div className = 'featured-project-container'>
-            {/* <H2 text={projectName}></H2> */}
-            {/* <div className="window-ratio"></div> */}
             <NavLink className="featured-nav-link" to={navLink}><FeaturedImage projectImage={projectImage} altProjectImageName={altProjectImageName}/></NavLink>
             <H1 text={projectName}></H1>
             <P1 text={projectDescription}></P1>
             <div className="featured-social-links">
                 <SocialButton fileName="/images/gitIcon.png" link={projectGithubLink} alternate='GitHub Project Link'/>
-                <SocialButton fileName="/images/liveIcon.png" link={projectLiveLink} alternate='GitHub Project Link'/>
+                <SocialButton fileName="/images/eyeIcon.png" link={projectLiveLink} alternate='GitHub Project Link'/>
             </div>
         </div>
     )
