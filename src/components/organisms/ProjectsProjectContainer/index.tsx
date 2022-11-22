@@ -17,7 +17,7 @@ interface ProjectsProjectContainerInterface {
 const ProjectsProjectContainer = ({projectName, projectDescription, projectImage, projectGithubLink, projectLiveLink, projectInternalLink}: ProjectsProjectContainerInterface) => {
     return (
         <div className="projects-project-container">
-            <div className="other-half">
+            {/* <div className="other-half">
                 <ProjectsProjectName projectName={projectName} />
                 <ProjectsProjectDescription projectDescription={projectDescription}/>
                 <ProjectsProjectInternalLink projectInternalLink={projectInternalLink}/>
@@ -25,8 +25,8 @@ const ProjectsProjectContainer = ({projectName, projectDescription, projectImage
                     <SocialButton fileName={'/images/gitIcon.png'} link={projectGithubLink} alternate={'Github Link'} />
                     <SocialButton fileName={'/images/eyeIcon.png'} link={projectLiveLink} alternate={'Live Link'} />
                 </div>
-            </div>
-            <ProjectsProjectImage projectImage={projectImage} />
+            </div> */}
+            {/* <ProjectsProjectImage projectImage={projectImage} /> */}
         </div>
     );
 };
