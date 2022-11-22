@@ -21,7 +21,7 @@
 
 .two-socials {
     display: flex;
-    position: relative;
+    /* position: relative; */
     justify-content: center;
     /* bottom: -50px;
     left: 40%; */
