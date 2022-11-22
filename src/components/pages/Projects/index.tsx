@@ -5,6 +5,7 @@ import './Projects.css'
 const Projects = () => {
     return (
         <div className="projects">
+            <script>0</script>
             <h1>This is the project-information page</h1>
             <ProjectsProjectContainer projectName={`Deep Sea Adventure`} 
             projectDescription={`This is a description of Deep Sea Adventure, I haven't got aything at the moment but I assure you when I do it'll be all over for you folks`} 
