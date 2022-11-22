@@ -7,8 +7,9 @@ const About = () => {
     return (
         <div  className="about">
             {/* <H1 text={'Hi, I\'m Robert Walerczak, nice to meet you!'}></H1> */}
-            <P1 text={'I\'m a Full Stack Developer passionate about clean, powerful websites designed to empower users.'}></P1>
-            <P1 text={''}></P1>
+            <P1 text={`I'm a Full Stack Developer passionate about clean, powerful websites designed to empower users.`}></P1>
+            <P1 text={``}></P1>
+            <P1 text={`I'm not great at speaking about myself, hopefully the websites and applications will speak for themselves.`}></P1>
         </div>
     )
 }

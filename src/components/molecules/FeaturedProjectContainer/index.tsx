@@ -24,8 +24,8 @@ const FeaturedProjectContainer = ({projectName, projectGithubLink, projectLiveLi
             <H1 text={projectName}></H1>
             <P1 text={projectDescription}></P1>
             <div className="featured-social-links">
-                <SocialButton fileName="/images/gitIcon.png" link={projectGithubLink} alternate='GitHub Project Link'/>
-                <SocialButton fileName="/images/eyeIcon.png" link={projectLiveLink} alternate='GitHub Project Link'/>
+                <SocialButton fileName="/images/gitIcon.png" link={projectGithubLink} alternate='Github Link'/>
+                <SocialButton fileName="/images/eyeIcon.png" link={projectLiveLink} alternate='Live Link'/>
             </div>
         </div>
     )

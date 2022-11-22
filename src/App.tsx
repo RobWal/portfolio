@@ -10,7 +10,7 @@ import Jaunt from './components/pages/Jaunt';
 import OkayBloomer from './components/pages/OkayBloomer';
 import PageNotFound from './components/pages/PageNotFound';
 import ProjectInformation from './components/pages/Projects';
-import StardewValleyFishing from './components/pages/StardewValleyFishing';
+import StardewValleyTools from './components/pages/StardewValleyTools';
 import TicTacToe from './components/pages/TicTacToe';
 
 function App() {
@@ -24,10 +24,10 @@ function App() {
               <Route path="/contact" element={<Contact />}/>
               <Route path="/projects" element={<ProjectInformation />}/>
               <Route path="/projects/deep-sea-adventure" element={<DeepSeaAdventure />}/>
-              {/* <Route path="/projects/stardew-valley-fishing" element={<StardewValleyFishing />}/> */}
               <Route path="/projects/okay-bloomer" element={<OkayBloomer />}/>
               <Route path="/projects/jaunt" element={<Jaunt />}/>
               <Route path="/projects/tic-tac-toe" element={<TicTacToe />}/>
+              <Route path="/stardew-valley-tools" element={<StardewValleyTools />}/>
               <Route path="/*" element={<PageNotFound />}/>
             </Routes>
         </div>

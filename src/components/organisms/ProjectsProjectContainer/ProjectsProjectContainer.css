@@ -1,0 +1,28 @@
+.projects-project-container {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 90vw;
+    height: auto;
+    margin: 2vw 0 2vw 0;
+    padding: 2vw;
+    background-color: rgb(83, 192, 87);
+    border-radius: 2vw;
+}
+
+.other-half {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.two-socials {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* bottom: -50px;
+    left: 40%; */
+}

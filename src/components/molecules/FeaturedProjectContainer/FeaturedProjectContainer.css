@@ -10,7 +10,8 @@
     gap: 1vh 1vw;
     /* justify-content: space-evenly; */
     /* flex-wrap: wrap; */
-    background-color: aquamarine;
+    /* background-color: rgb(89, 179, 182); */
+    background-color: rgb(83, 192, 87);
     border-radius: 5vmin;
     position: relative;
 }
