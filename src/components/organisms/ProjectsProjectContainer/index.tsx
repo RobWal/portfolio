@@ -3,6 +3,7 @@ import ProjectsProjectImage from '../../atoms/ProjectsProjectImage';
 import ProjectsProjectInternalLink from '../../atoms/ProjectsProjectInternalLink';
 import ProjectsProjectName from '../../atoms/ProjectsProjectName';
 import SocialButton from '../../atoms/SocialButton';
+import ProjectsProjectTextContainer from '../../molecules/ProjectsProjectTextContainer';
 import './ProjectsProjectContainer.css'
 
 interface ProjectsProjectContainerInterface {
@@ -17,16 +18,9 @@ interface ProjectsProjectContainerInterface {
 const ProjectsProjectContainer = ({projectName, projectDescription, projectImage, projectGithubLink, projectLiveLink, projectInternalLink}: ProjectsProjectContainerInterface) => {
     return (
         <div className="projects-project-container">
-            {/* <div className="other-half">
-                <ProjectsProjectName projectName={projectName} />
-                <ProjectsProjectDescription projectDescription={projectDescription}/>
-                <ProjectsProjectInternalLink projectInternalLink={projectInternalLink}/>
-                <div className="two-socials">
-                    <SocialButton fileName={'/images/gitIcon.png'} link={projectGithubLink} alternate={'Github Link'} />
-                    <SocialButton fileName={'/images/eyeIcon.png'} link={projectLiveLink} alternate={'Live Link'} />
-                </div>
-            </div> */}
-            {/* <ProjectsProjectImage projectImage={projectImage} /> */}
+            <ProjectsProjectTextContainer projectName={projectName} projectDescription={projectDescription} projectImage={projectImage} projectGithubLink={projectGithubLink}
+             projectLiveLink={projectLiveLink} projectInternalLink={projectInternalLink} />
+            <ProjectsProjectImage projectImage={projectImage} />
         </div>
     );
 };
