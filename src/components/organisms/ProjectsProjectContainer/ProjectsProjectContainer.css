@@ -1,9 +1,6 @@
 .projects-project-container {
     display: flex;
     justify-content: space-between;
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    /* align-items: center; */
     width: 90vw;
     height: auto;
     margin: 2vw 0 2vw 0;
@@ -21,8 +18,5 @@
 
 .two-socials {
     display: flex;
-    /* position: relative; */
     justify-content: center;
-    /* bottom: -50px;
-    left: 40%; */
 }
