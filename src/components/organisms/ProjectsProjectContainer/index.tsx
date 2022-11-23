@@ -13,14 +13,15 @@ interface ProjectsProjectContainerInterface {
     projectGithubLink: string,
     projectLiveLink: string,
     projectInternalLink: string,
+    projectImageAlt: string,
 };
 
-const ProjectsProjectContainer = ({projectName, projectDescription, projectImage, projectGithubLink, projectLiveLink, projectInternalLink}: ProjectsProjectContainerInterface) => {
+const ProjectsProjectContainer = ({projectName, projectDescription, projectImage, projectGithubLink, projectLiveLink, projectInternalLink, projectImageAlt}: ProjectsProjectContainerInterface) => {
     return (
         <div className="projects-project-container">
-            <ProjectsProjectTextContainer projectName={projectName} projectDescription={projectDescription} projectImage={projectImage} projectGithubLink={projectGithubLink}
+            <ProjectsProjectTextContainer projectName={projectName} projectDescription={projectDescription} projectGithubLink={projectGithubLink}
              projectLiveLink={projectLiveLink} projectInternalLink={projectInternalLink} />
-            <ProjectsProjectImage projectImage={projectImage} />
+            <ProjectsProjectImage projectImage={projectImage} projectImageAlt={projectImageAlt} />
         </div>
     );
 };

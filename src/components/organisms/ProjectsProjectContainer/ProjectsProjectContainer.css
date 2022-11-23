@@ -9,4 +9,20 @@
     border-radius: 2vw;
 }
 
+@media only screen and (min-width: 1300px) {
+    .projects-project-container {
+        margin: 26px 0 26px 0;
+        padding: 26px;
+        height: 302.633px;
+        border-radius: 26px;
+    }
+}
 
+@media only screen and (max-width: 600px) {
+    .projects-project-container {
+        height: 140px;
+        border-radius: 12px;
+        align-items: center;
+        margin: 12px 0 12px 0;
+    }
+}

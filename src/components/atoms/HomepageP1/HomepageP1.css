@@ -1,0 +1,11 @@
+.homepage-p1 {
+    font-size: 1.8vmin;
+    width: 90%;
+    text-align: center;
+}
+
+@media screen and (min-width: 1500px) {
+    .homepage-p1 {
+        font-size: 16.866px;
+    }
+}

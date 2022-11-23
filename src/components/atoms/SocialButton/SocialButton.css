@@ -20,15 +20,25 @@
 }
 
 .social-link-image {
-    /* position: relative; */
     margin: 0;
     width: 100%;
     height: 100%;
-    /* border-radius: 1.5vmin; */
     transition: transform 0.5s;
 }
 
 .social-link-image:hover {
     transition: transform 0.5s;
     transform: scale(1.1);
+}
+
+@media only screen and (min-width: 1300px) {
+    .social {
+        height: 47.7833px;
+        width: 47.7833px;
+        border-radius: 14.055px;
+    }
+    .social-link {
+        height: 31.37167px;
+        width: 31.37167px;
+    }
 }

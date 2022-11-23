@@ -2,11 +2,12 @@ import './ProjectsProjectImage.css';
 
 type ProjectImage = {
     projectImage: string,
+    projectImageAlt: any,
 };
 
-const ProjectsProjectImage = ({projectImage}: ProjectImage) => {
+const ProjectsProjectImage = ({projectImage, projectImageAlt}: ProjectImage) => {
     return (
-        <img className="projects-project-image" src={projectImage} alt=''></img>
+        <img className="projects-project-image" src={projectImage} alt={projectImageAlt}></img>
     );
 };
 

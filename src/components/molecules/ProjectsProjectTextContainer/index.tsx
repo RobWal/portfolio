@@ -8,13 +8,12 @@ import './ProjectsProjectTextContainer.css'
 interface ProjectsProjectContainerInterface {
     projectName: string,
     projectDescription: string,
-    projectImage: string,
     projectGithubLink: string,
     projectLiveLink: string,
     projectInternalLink: string,
 };
 
-const ProjectsProjectTextContainer = ({projectName, projectDescription, projectImage, projectGithubLink, projectLiveLink, projectInternalLink}: ProjectsProjectContainerInterface) => {
+const ProjectsProjectTextContainer = ({projectName, projectDescription, projectGithubLink, projectLiveLink, projectInternalLink}: ProjectsProjectContainerInterface) => {
     return (
         <div className="projects-project-text-container">
             <ProjectsProjectName projectName={projectName} />
