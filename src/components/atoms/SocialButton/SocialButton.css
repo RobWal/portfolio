@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+};
 
 .social-link {
     margin: 0;
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+};
 
 .social-link-image {
     /* position: relative; */
@@ -26,9 +26,9 @@
     height: 100%;
     /* border-radius: 1.5vmin; */
     transition: transform 0.5s;
-}
+};
 
 .social-link-image:hover {
     transition: transform 0.5s;
     transform: scale(1.1);
-}
+};

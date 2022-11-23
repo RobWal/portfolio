@@ -1,10 +1,10 @@
-import './SocialButton.css'
+import './SocialButton.css';
 
 type SocialButton = {
     fileName: string,
     link: string,
     alternate: string,
-}
+};
 
 const SocialButton = ({fileName, link, alternate}: SocialButton) => {
     return (
@@ -13,7 +13,7 @@ const SocialButton = ({fileName, link, alternate}: SocialButton) => {
                 <img className="social-link-image" src={fileName} alt={alternate}/>   
             </a>
         </div>
-    )
-}
+    );
+};
 
 export default SocialButton;
