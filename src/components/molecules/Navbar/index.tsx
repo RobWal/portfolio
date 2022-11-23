@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import NavDownloadImage from '../../atoms/NavDownloadImage';
 import NavDownloadLink from '../../atoms/NavDownloadLink';
 // import SocialButton from '../../atoms/SocialButton';
-import './Navbar.css'
+import './Navbar.css';
 
 
 const Navbar = () => {
