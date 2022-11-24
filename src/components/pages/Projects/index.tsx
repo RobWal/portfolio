@@ -1,35 +1,40 @@
 import { Link } from 'react-router-dom';
+import H1 from '../../atoms/H1';
 import ProjectsProjectContainer from '../../organisms/ProjectsProjectContainer';
 import './Projects.css'
 
 const Projects = () => {
     return (
         <div className="projects">
-            <h1>Projects</h1>
+            <H1 text={'Projects'} />
             <ProjectsProjectContainer projectName={`Deep Sea Adventure`} 
-            projectDescription={`This is a description of Deep Sea Adventure, I haven't got aything at the moment but I assure you when I do it'll be all over for you folks`} 
+            projectDescription={`Deep Sea Adventure is a board game I've played many times with friends, but during the pandemic it became impossible to enjoy, so I attempted to recreate it online
+            so that we could enjoy it, no matter the distance between us.`} 
             projectImage={`/images/featuredDeepSeaAdventure.png`} projectImageAlt={'Deep Sea Adventure Tools Alternate'} projectGithubLink={`https://github.com/RobWal/deep-sea-adventure`} 
-            projectLiveLink={`href="https://deep-see-adventure.herokuapp.com/"`} projectInternalLink={`/projects/deep-sea-adventure`} />
+            projectLiveLink={`https://deep-see-adventure.herokuapp.com/`} projectInternalLink={`/projects/deep-sea-adventure`} />
             
             <ProjectsProjectContainer projectName={`Stardew Valley Tools`} 
-            projectDescription={`This is a description of Stardew Valley Tools`} 
+            projectDescription={`Stardew Valley Tools is a work-in-progress passion project I started after falling in love with the game by the same name. What started as an excel spreadsheet
+            will be made available for everyone to make their playthroughs just that little bit more enjoyable.`} 
             projectImage={`/images/featuredStardewValleyTools.png`} projectImageAlt={'Stardew Valley Tools Alternate'} projectGithubLink={`https://github.com/RobWal/stardew-valley-tools`} 
-            projectLiveLink={`href="https://RobWal.github.io"`} projectInternalLink={`/projects/stardew-valley-tools`} />
+            projectLiveLink={`https://RobWal.github.io`} projectInternalLink={`/projects/stardew-valley-tools`} />
 
             <ProjectsProjectContainer projectName={`Okay Bloomer`} 
-            projectDescription={`This is a description of Okay Bloomer`} 
+            projectDescription={`Okay Bloomer is a project designed to help bring the crucial life or death information, like how often to water or how much sun a plant needs, to beginner 
+            gardeners who don't know a philadendron from a pothos.`} 
             projectImage={`/images/featuredOkayBloomer.png`} projectImageAlt={'Okay Bloomer Alternate'} projectGithubLink={`https://github.com/RobWal/okay-bloomer`} 
-            projectLiveLink={`href="https://okay-bloomer.herokuapp.com/"`} projectInternalLink={`/projects/okay-bloomer`} />
+            projectLiveLink={`https://okay-bloomer.herokuapp.com/`} projectInternalLink={`/projects/okay-bloomer`} />
             
             <ProjectsProjectContainer projectName={`Jaunt`} 
-            projectDescription={`This is a description of Jaunt`} 
-            projectImage={`/images/featuredJaunt.png`} projectImageAlt={'Jaunt Alternate'} projectGithubLink={`https://github.com/RobWal/jaunt`} 
-            projectLiveLink={`href="https://jaunt.herokuapp.com/"`} projectInternalLink={`/projects/jaunt`} />
+            projectDescription={`Jaunt began in the passion for table top role playing games, in the mind of a friend of mine. This website aimed to make Jaunt character creation and some of 
+            the rules more widely available to further streamline the TTRPG experience`} 
+            projectImage={`/images/featuredJaunt.png`} projectImageAlt={'Jaunt Alternate'} projectGithubLink={`https://github.com/RobWal/Jaunt-website`} 
+            projectLiveLink={`https://jaunt-website.herokuapp.com/home`} projectInternalLink={`/projects/jaunt`} />
             
             <ProjectsProjectContainer projectName={`Tic Tac Toe`} 
-            projectDescription={`This is a description of Tic Tac Toe`} 
-            projectImage={`/images/featuredTicTacToe.png`} projectImageAlt={'Tic Tac Toe Alternate'} projectGithubLink={`https://github.com/RobWal/tic-tac-toe`} 
-            projectLiveLink={`href="https://tic-tac-toe.herokuapp.com/"`} projectInternalLink={`/projects/tic-tac-toe`} /> 
+            projectDescription={`Tic Tac Toe is a nod to my humble beginnings as a developer, it consists of only the most sophisticated HTML, CSS, and yes, even JavaScript!`} 
+            projectImage={`/images/featuredTicTacToe.png`} projectImageAlt={'Tic Tac Toe Alternate'} projectGithubLink={`https://github.com/RobWal/TicTacToe`} 
+            projectLiveLink={`https://robwal.github.io/TicTacToe/`} projectInternalLink={`/projects/tic-tac-toe`} /> 
         </div>
     )
 }

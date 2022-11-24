@@ -1,0 +1,31 @@
+.homepage-featured-p1 {
+    display: inline;
+    font-size: 1.8vw;
+    max-width: 90%;
+    text-align: center;
+}
+
+@media screen and (min-width: 1500px) {
+    .homepage-featured-p1 {
+        font-size: 16.866px;
+    }
+}
+
+.homepage-featured-internal-link {
+    font-size: 1.8vw;
+    font-weight: bolder;
+    color: black;
+    transform: 0.5s;
+    backface-visibility: hidden;
+}
+
+.homepage-featured-internal-link :hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 1500px) {
+    .homepage-featured-internal-link {
+        font-size: 16.866px;
+    }
+}

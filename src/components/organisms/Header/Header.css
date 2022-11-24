@@ -1,6 +1,5 @@
 .header {
     background-color: rgb(47, 137, 255);
-    /* margin: 0 0 5vh 0; */
     min-height: 25vmin;
     padding: 0;
     display: flex;
@@ -19,8 +18,3 @@
         max-height: 187px;
     }
 }
-
-/*
-48 26 65
-
-*/

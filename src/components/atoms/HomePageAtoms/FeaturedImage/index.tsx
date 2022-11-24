@@ -7,9 +7,7 @@ type FeaturedImage = {
 
 const FeaturedImage = ({projectImage, altProjectImageName}: FeaturedImage) => {
     return (
-        // <div className="featured-image-link">
-            <img className="featured-image" src={projectImage} alt={altProjectImageName}/>   
-        // </div>
+        <img className="featured-image" src={projectImage} alt={altProjectImageName}/>   
     );
 };
 

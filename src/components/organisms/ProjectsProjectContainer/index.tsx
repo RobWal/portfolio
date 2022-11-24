@@ -1,8 +1,4 @@
-import ProjectsProjectDescription from '../../atoms/ProjectsProjectDescription';
-import ProjectsProjectImage from '../../atoms/ProjectsProjectImage';
-import ProjectsProjectInternalLink from '../../atoms/ProjectsProjectInternalLink';
-import ProjectsProjectName from '../../atoms/ProjectsProjectName';
-import SocialButton from '../../atoms/SocialButton';
+import ProjectsProjectImage from '../../atoms/ProjectsPageAtoms/ProjectsProjectImage';
 import ProjectsProjectTextContainer from '../../molecules/ProjectsProjectTextContainer';
 import './ProjectsProjectContainer.css'
 

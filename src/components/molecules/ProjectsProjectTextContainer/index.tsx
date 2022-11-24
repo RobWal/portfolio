@@ -1,7 +1,6 @@
-import ProjectsProjectDescription from "../../atoms/ProjectsProjectDescription";
-import ProjectsProjectInternalLink from "../../atoms/ProjectsProjectInternalLink";
-import ProjectsProjectName from "../../atoms/ProjectsProjectName";
-import SocialButton from "../../atoms/SocialButton";
+import ProjectsProjectDescription from "../../atoms/ProjectsPageAtoms/ProjectsProjectDescription";
+import ProjectsProjectInternalLink from "../../atoms/ProjectsPageAtoms/ProjectsProjectInternalLink";
+import ProjectsProjectName from "../../atoms/ProjectsPageAtoms/ProjectsProjectName";
 import ProjectsProjectSocialContainer from "../ProjectsProjectSocialContainer";
 import './ProjectsProjectTextContainer.css'
 
@@ -18,7 +17,7 @@ const ProjectsProjectTextContainer = ({projectName, projectDescription, projectG
         <div className="projects-project-text-container">
             <ProjectsProjectName projectName={projectName} />
             <ProjectsProjectDescription projectDescription={projectDescription}/>
-            <ProjectsProjectInternalLink projectInternalLink={projectInternalLink}/>
+            <ProjectsProjectInternalLink projectInternalLink={projectInternalLink} projectName={projectName}/>
             <ProjectsProjectSocialContainer projectGithubLink={projectGithubLink} projectLiveLink={projectLiveLink} />
         </div>
     )

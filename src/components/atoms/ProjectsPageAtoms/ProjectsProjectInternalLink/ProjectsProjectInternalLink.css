@@ -1,0 +1,23 @@
+.projects-project-internal-link-description {
+    font-size: 1.5vw;
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .projects-project-internal-link-description {
+        font-size: 19.5px;
+    }
+}
+
+.projects-project-internal-link {
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bolder;
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .projects-project-internal-link {
+        font-size: 19.5px;
+    }
+}

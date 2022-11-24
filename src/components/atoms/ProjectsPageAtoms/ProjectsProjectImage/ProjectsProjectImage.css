@@ -1,16 +1,7 @@
 .projects-project-image {
-    /* max-width: 100%; */
-    /* height: auto; */
-    /* max-width: 68vmin;
-    max-height: 40vmin; */
     max-width: 45%;
     height: auto;
-    /* width: auto; */
     border-radius: 2vw;
-    /* max-width: 50vw; */
-    /* size: ; */
-    /* height: auto; */
-    /* display: inline-block; */
 }
 
 @media only screen and (min-width: 1300px) {
@@ -23,8 +14,5 @@
     .projects-project-image {
         border-radius: 12px;
         height: 23.33vw;
-        /* height: 140px; */
-        /* width: 45%; */
-        /* aspect-ratio: 2 / 1; */
     }
 }

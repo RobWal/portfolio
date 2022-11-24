@@ -1,8 +1,6 @@
 .navbar {
     display: flex;
     align-items: center;
-    /* margin: 1.5vmin; */
-    /* height: 5vw; */
 }
 
 .nav-link {
@@ -19,5 +17,5 @@
 }
 
 .active {
-    color: rgb(83, 83, 83);
+    color: rgb(61, 61, 61);
 }

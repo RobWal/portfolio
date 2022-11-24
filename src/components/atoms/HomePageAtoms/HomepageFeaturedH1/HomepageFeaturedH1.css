@@ -1,13 +1,13 @@
-.homepage-h1 {
+.homepage-featured-h1 {
     margin: 0;
     text-align: center;
     width: 90%;
-    font-size: 3vmin;
+    font-size: 2.7vw;
 }
 
 
 @media screen and (min-width: 1500px) {
-    .homepage-h1 {
+    .homepage-featured-h1 {
         font-size: 28.11px;
     }
 }
