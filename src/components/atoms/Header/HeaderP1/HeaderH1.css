@@ -1,0 +1,11 @@
+.header-p1 {
+    font-size: 4.2vmin;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px){
+    .header-p1 {
+        font-size: 6.2vmin;
+    }
+}

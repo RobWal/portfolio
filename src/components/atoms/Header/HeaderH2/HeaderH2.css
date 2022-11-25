@@ -1,0 +1,11 @@
+.header-h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.2vmin;
+}
+
+@media screen and (max-width: 600px){
+    .header-h2 {
+        font-size: 4.2vmin;
+    }
+}

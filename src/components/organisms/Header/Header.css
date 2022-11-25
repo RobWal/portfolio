@@ -8,13 +8,21 @@
     align-items: center;
 }
 
-.header > h1 {
-    margin: 0;
-    padding: 0;
-}
-
 @media only screen and (min-width: 1300px) {
     .header {
         max-height: 187px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .header {
+        /* flex- */
+        /* flex-direction: column; */
+        /* justify-content: unset; */
+        /* align-items: unset; */
+        /* align-content: flex-start; */
+        flex-wrap: wrap;
+        max-height: 25vmin;
+        /* flex-direction: row; */
     }
 }
