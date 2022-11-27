@@ -1,7 +1,7 @@
 .homepage-featured-h1 {
     margin: 0;
     text-align: center;
-    width: 90%;
+    max-width: 90%;
     font-size: 2.7vw;
 }
 
@@ -9,5 +9,11 @@
 @media screen and (min-width: 1500px) {
     .homepage-featured-h1 {
         font-size: 28.11px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .homepage-featured-h1 {
+        font-size: 5vw;
     }
 }
