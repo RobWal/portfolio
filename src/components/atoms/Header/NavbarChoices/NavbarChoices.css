@@ -111,10 +111,10 @@
 }
 
 @media screen and (max-width: 600px) {
-    .navbar-choices-link {
-
-    }
-    .navbar-choices-link :hover {
+    .navbar-choices-icon:hover {
+        background-color: rgb(110, 173, 255);
+        transition: 0.4s;
+        cursor: default;
     }
 }
 
