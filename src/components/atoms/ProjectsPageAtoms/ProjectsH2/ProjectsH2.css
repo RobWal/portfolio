@@ -1,0 +1,22 @@
+.projects-h2 {
+    /* margin: 4vw 0 2vw 0; */
+    text-align: center;
+    width: 90%;
+    /* font-size: 2.7vw; */
+}
+
+
+@media screen and (min-width: 1500px) {
+    .projects-h2 {
+        /* margin: 4vw 0 2vw 0; */
+        /* font-size: 4.2vmin; */
+    }
+}
+
+@media screen and (max-width: 600px){
+    .projects-h2 {
+        font-size: 3vw;
+        margin: 3vw 0 10vw 0;
+        max-width: 80%;
+    }
+}

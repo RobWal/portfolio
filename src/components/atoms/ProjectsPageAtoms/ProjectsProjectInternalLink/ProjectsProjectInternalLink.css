@@ -16,8 +16,12 @@
 }
 
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (max-width: 600px) {
+    .projects-project-internal-link-description {
+        font-size: 3vw;
+    }
+
     .projects-project-internal-link {
-        font-size: 19.5px;
+        font-size: 3vw;
     }
 }

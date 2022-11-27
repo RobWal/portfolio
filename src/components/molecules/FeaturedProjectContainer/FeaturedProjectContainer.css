@@ -7,7 +7,7 @@
     align-items: center;
     gap: 1vh 1vw;
     background-color: rgb(83, 192, 87);
-    border-radius: 5vmin;
+    border-radius: 5vw;
 }
 
 .featured-nav-link {
@@ -23,8 +23,9 @@
     transform: scale(1.1);
 }
 
-.featured-social-links {
+.social-links {
     display: flex;
+    align-items: center;
 }
 
 @media screen and (min-width: 1500px) {

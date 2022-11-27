@@ -20,7 +20,7 @@ const FeaturedProjectContainer = ({projectName, projectGithubLink, projectLiveLi
             <FeaturedImage projectImage={projectImage} altProjectImageName={altProjectImageName} />
             <HomepageFeaturedH1 text={projectName} />
             <HomepageFeaturedP1 text={projectDescription} projectInternalLink={projectInternalLink}/>
-            <div className="featured-social-links">
+            <div className="social-links">
                 <SocialButton fileName="/images/gitIcon.png" link={projectGithubLink} alternate='Github Link' />
                 <SocialButton fileName="/images/eyeIcon.png" link={projectLiveLink} alternate='Live Link' />
             </div>
