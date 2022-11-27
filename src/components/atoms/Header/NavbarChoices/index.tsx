@@ -24,6 +24,7 @@ const NavbarChoices = (props: NavbarInterface) => {
             navbarChoicesContainer?.classList.toggle('unclickable');
         }, 400);
         if(open === true){
+            document.getElementsByClassName('screen-fade-off').item(0)?.classList.replace('screen-fade-off', 'screen-fade-on');
             setDropdownClassName("navbar-choices-dropdown-container");
             for(let i = 0; i < props.choices.length; i++){
                 setTimeout(() => {
@@ -32,6 +33,7 @@ const NavbarChoices = (props: NavbarInterface) => {
             };
         } else {
             setDropdownClassName("navbar-choices-dropdown-container-hidden");
+            document.getElementsByClassName('screen-fade-on').item(0)?.classList.replace('screen-fade-on', 'screen-fade-off');
             for(let i = 0; i < props.choices.length; i++){
                 setTimeout(() => {
                     document.getElementsByClassName('navbar-choices-link').item(0)?.setAttribute("class", 'navbar-choices-link-hidden');
@@ -42,6 +44,7 @@ const NavbarChoices = (props: NavbarInterface) => {
 
     return (
         <div key={0} className="navbar-choices-container">
+            <div className="screen-fade-off"></div>
             <img src={props.name} className="navbar-choices-icon" onClick={()=>{setOpen(!open)}}></img>
             <div id="dropdown-Container" className={dropdownClassName}>
             {props.choices.map((choice: any, index: any) => {
