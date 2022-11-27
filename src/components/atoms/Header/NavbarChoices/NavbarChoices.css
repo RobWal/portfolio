@@ -1,27 +1,100 @@
 .navbar-choices-container {
-    max-width: 80px;
-    max-height: 80px;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-choices-icon {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.navbar-choices-icon:hover {
+    background-color: rgb(110, 173, 255);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+.navbar-choices-dropdown-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw 0;
+    right: 0;
+    top: 25vmin;
+    margin: 2vw 0 0 0;
+    width: 175px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.navbar-choices-dropdown-container-hidden {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw 0;
+    right: 0px;
+    top: 25vmin;
+    margin: 2vw 0 0 0;
+    transition: 0.4s;
+    width: 175px;
+    overflow: hidden;
+    padding-left: 175px;
+    transition: 0.4s;
+
 }
 
 .navbar-choices-link {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
     color: black;
-    font-size: 3.5vmin;
-    margin: 10px 0 10px 0;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bolder;
     border-radius: 10px 0 0 10px;
-    top: 30px;
-    right: 70px;
     z-index: 1;
-    opacity: .99;
     width: 175px;
     height: 75px;
     background-color: rgb(47, 137, 255);
+    transition: 0.4s;
+}
+
+
+.navbar-choices-link-hidden {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+    border-radius: 10px 0 0 10px;
+    z-index: 1;
+    width: 175px;
+    height: 75px;
+    position: relative;
+    right: 0;
+    transform: translateX(350px);
+    background-color: rgb(47, 137, 255);
+    transition: 0.4s;
+}
+
+.navbar-choices-link:hover {
+    background-color: rgb(110, 173, 255);
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-choices-link {
+
+    }
+    .navbar-choices-link :hover {
+    }
+}
+
+.unclickable {
+    pointer-events: none;
 }
