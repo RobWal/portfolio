@@ -4,30 +4,25 @@ import ProjectsProjectInternalLink from "../../atoms/ProjectsPageAtoms/ProjectsP
 import ProjectsProjectName from "../../atoms/ProjectsPageAtoms/ProjectsProjectName";
 import ProjectsProjectTechnicals from "../../atoms/ProjectsPageAtoms/ProjectsProjectTechnicals";
 import ProjectsProjectSocialContainer from "../ProjectsProjectSocialContainer";
-import './ProjectsProjectTextContainer.css'
+import './ProjectsProjectLeftContainer.css'
 
-interface ProjectsProjectContainerInterface {
+interface ProjectsProjectLeftContainerInterface {
     projectName: string,
     projectDescription: string,
     projectGithubLink: string,
     projectLiveLink: string,
     projectInternalLink: string,
-    projectImage: string,
-    projectImageAlt: string,
-    projectTechnicals: string,
 };
 
-const ProjectsProjectTextContainer = ({projectName, projectDescription, projectGithubLink, projectLiveLink, projectInternalLink, projectImageAlt, projectImage, projectTechnicals}: ProjectsProjectContainerInterface) => {
+const ProjectsProjectLeftContainer = ({projectName, projectDescription, projectGithubLink, projectLiveLink, projectInternalLink}: ProjectsProjectLeftContainerInterface) => {
     return (
-        <div className="projects-project-text-container">
+        <div className="projects-project-left-container">
             <ProjectsProjectName projectName={projectName} />
             <ProjectsProjectDescription projectDescription={projectDescription}/>
             <ProjectsProjectInternalLink projectInternalLink={projectInternalLink} projectName={projectName}/>
             <ProjectsProjectSocialContainer projectGithubLink={projectGithubLink} projectLiveLink={projectLiveLink} />
-            <ProjectsProjectImage projectImage={projectImage} projectImageAlt={projectImageAlt} />
-            <ProjectsProjectTechnicals projectTechnicals={projectTechnicals}/>
         </div>
     )
 }
 
-export default ProjectsProjectTextContainer;
+export default ProjectsProjectLeftContainer;

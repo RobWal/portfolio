@@ -1,13 +1,15 @@
-.projects-project-text-container {
+.projects-project-left-container {
+    position: relative;
+    display: inline;
     width: 45%;
-    height: 90vw;
+    height: 110vw;
     display: flex;
     align-items: center;
     /* justify-items: center; */
     flex-direction: column;
-    /* justify-content: space-between; */
-    flex-wrap: wrap;
-    gap: 0 5vw;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    /* gap: 0 5vw; */
     /* padding: 0 2.5vw 0 2.5vw;
     margin: 0 2.5vw 0 2.5vw; */
 }

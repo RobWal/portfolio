@@ -7,7 +7,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className="header">
+        <div id="header" className="header">
             <HeaderTextAligner components={[<HeaderH1 componentKey={0} text={"Robert Walerczak"} />, <HeaderH2 componentKey={1} text={"Software Engineer"} />]} />
             <NavbarChoices name={'/images/menuIcon.png'} choices={[{"Name": "Home", "Link": ""}, {"Name": "Projects", "Link": "projects"}, {"Name": "About", "Link": "about"}, 
             {"Name": "Contact", "Link": "contact"}]} />

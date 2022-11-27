@@ -1,0 +1,17 @@
+.projects-project-right-container {
+    position: relative;
+    display: inline;
+    width: 40vw;
+    height: 110vw;
+    display: flex;
+    align-items: center;
+    /* justify-items: center; */
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 0 0 6.5vw;
+    /* flex-wrap: wrap; */
+    /* gap: 0 5vw; */
+    /* padding: 0 2.5vw 0 2.5vw;
+    margin: 0 2.5vw 0 2.5vw; */
+}
+
