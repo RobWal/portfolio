@@ -1,6 +1,6 @@
 .header {
     background-color: rgb(47, 137, 255);
-    min-height: 25vmin;
+    height: 25vmin;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
         /* align-items: unset; */
         /* align-content: flex-start; */
         flex-wrap: wrap;
-        max-height: 25vmin;
+        height: 25vw;
         /* flex-direction: row; */
     }
 }

@@ -42,3 +42,15 @@
         width: 31.37167px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .social {
+        height: 12vw;
+        width: 12vw;
+        border-radius: 4vw;
+    }
+    .social-link {
+        height: 8vw;
+        width: 8vw;
+    }
+}
