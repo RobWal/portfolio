@@ -21,15 +21,19 @@
 
 @media only screen and (max-width: 600px) {
     .projects-project-container {
-        display: flex;
-        flex-direction: column; 
+        /* display: flex; */
+        /* flex-direction: column;  */
         /* justify-content: space-between; */
         /* flex-wrap: wrap; */
-        border-radius: 5vw;
         /* align-items: center; */
-        margin: 5vw;
-        padding: 2.5vw;
+        /* display: inline-grid; */
+        /* grid-template-columns: [first] 40vw [second] 40vw;
+        grid-template-rows: [first] 12vw [second] 22vw [third] 22vw [fourth] 22vw [fifth] 22vw;
+        column-gap: 5vw; */
         width: 85vw;
-        height: 110vw;
+        /* height: 110vw; */
+        border-radius: 5vw;
+        margin: 5vw;
+        padding: 3vw 2.5vw 3vw 2.5vw;
     }
 }

@@ -1,0 +1,8 @@
+.about-profile-image {
+    /* position: absolute; */
+    /* left: 5vw; */
+    /* top: 30vw; */
+    width: 40%;
+    border-radius: 50%;
+    margin: 0 0 0 3vw;
+}

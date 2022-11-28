@@ -1,0 +1,86 @@
+.practiced-in-images-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 5vw;
+    width: 100%;
+    height: 25vw;
+    margin: 0 0 10vw 0;
+}
+
+.images-container-image {
+    height: 15vw;
+    position: absolute;    
+    left: -20vw;
+}
+
+
+.firstanimation {
+    animation: cycle 12s linear infinite;
+ }
+ 
+.secondanimation {
+    animation: cycletwo 12s linear infinite;
+    animation-delay: 2s;
+}
+ 
+.thirdanimation {
+    animation: cyclethree 12s linear infinite;
+    animation-delay: 4s;
+}
+ 
+.fourthanimation {
+    animation: cyclefour 12s linear infinite;
+    animation-delay: 6s;
+}
+ 
+.fifthanimation {
+    animation: cyclefive 12s linear infinite;
+    animation-delay: 8s;
+}
+
+.sixthanimation {
+    animation: cyclesix 12s linear infinite;
+    animation-delay: 10s;
+}
+
+@keyframes cycle {
+    0%  { left: -20vw; } 
+    92% { left: 100vw; opacity: 1; z-index: 0; }
+    96% { left: 100vw; opacity: 0; } 
+    100%{ left: -5vw; opacity: 0; }
+ }
+ 
+ @keyframes cycletwo {
+    0%  { left: -20vw; } 
+    92% { left: 100vw; opacity: 1; z-index: 0; }
+    96% { left: 100vw; opacity: 0; } 
+    100%{ left: -20vw; opacity: 0; }
+ }
+ 
+ @keyframes cyclethree {
+    0%  { left: -20vw; } 
+    92% { left: 100vw; opacity: 1; z-index: 0; }
+    96% { left: 100vw; opacity: 0; } 
+    100%{ left: -20vw; opacity: 0; }
+ }
+ 
+ @keyframes cyclefour {
+    0%  { left: -20vw; } 
+    92% { left: 100vw; opacity: 1; z-index: 0; }
+    96% { left: 100vw; opacity: 0; } 
+    100%{ left: -20vw; opacity: 0; }
+ }
+ @keyframes cyclefive {
+    0%  { left: -20vw; } 
+    92% { left: 100vw; opacity: 1; z-index: 0; }
+    96% { left: 100vw; opacity: 0; } 
+    100%{ left: -20vw; opacity: 0; }
+ }
+
+ @keyframes cyclesix {
+    0%  { left: -20vw; } 
+    92% { left: 100vw; opacity: 1; z-index: 0; }
+    96% { left: 100vw; opacity: 0; } 
+    100%{ left: -20vw; opacity: 0; }
+ }

@@ -1,4 +1,6 @@
 .projects-project-social-container {
     display: flex;
     justify-content: center;
+    /* position: relative;
+    bottom: 0; */
 }

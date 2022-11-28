@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const UseHashFragment = (offset = 0, trigger = true) => {
+const UseHashFragment = (offset = 20, trigger = true) => {
     useEffect(() => {
         const scrollToHashElement = () => {
             if(!window.location.href.includes('#')) {
