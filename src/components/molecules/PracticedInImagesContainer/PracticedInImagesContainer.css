@@ -48,7 +48,7 @@
     0%  { left: -20vw; } 
     92% { left: 100vw; opacity: 1; z-index: 0; }
     96% { left: 100vw; opacity: 0; } 
-    100%{ left: -5vw; opacity: 0; }
+    100%{ left: -20vw; opacity: 0; }
  }
  
  @keyframes cycletwo {
