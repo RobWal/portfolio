@@ -11,7 +11,7 @@ const HomeScreen = () => {
     return (
         <div className="home-screen">
             <HomepageH1 text={`Welcome to my online portfolio`} />
-            <HomepageH2 text={`I'm a full stack engineer passionate about clean, powerful websites designed to empower users`} />
+            <HomepageH2 text={`I'm a full stack engineer passionate about finding the simplest most comprehensive solutions to every day problems, helping to empower people in all walks of life.`} />
             <HomepageH1 text={'Featured Projects'} />
             <Featured></Featured>
             <HomepageH1 text={'Experienced with:'} />

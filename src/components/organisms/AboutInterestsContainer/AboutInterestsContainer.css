@@ -1,6 +1,8 @@
 .about-interests-container {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    /* margin: 0 0 12vw 0; */
 }

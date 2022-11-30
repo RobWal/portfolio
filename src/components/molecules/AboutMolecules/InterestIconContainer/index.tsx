@@ -11,8 +11,11 @@ interface InterestIconContainerInterface {
 const InterstIconContainer = ({imageSource, className}: InterestIconContainerInterface) => {
     return (
         <div className={`interest-icon-container ${className}`}>
+            <svg className="circlesvg" height="100%" width="100%" xmlns="https://www.w3.org/2000/svg">
+                <circle cx="50%" cy="50%" r="50%" />
+            </svg>
             <AboutInterestIcon imageSource={imageSource} />
-            {/* <AboutInterestName interestName={interestName} /> */}
+            <img className="interest-icon-container-smallFlame" src="/images/smallFlame.svg"></img>
         </div>
     );
 };

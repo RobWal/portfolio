@@ -1,13 +1,52 @@
 .interest-icon-container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 16.66vw;
-    height: 16.66svw;
+    height: 16.66vw;
     margin: 2vw 2vw 0 2vw;
     border-radius: 50%;
-    background-color: rgba(255, 0, 0, 0.685);
+    /* background-color: rgba(255, 0, 0, 0.685); */
+    /* z-index: 2; */
+    /* opacity: 1; */
 }
+
+.circlesvg {
+    /* width: 16.66vw;
+    height: 16.66vw; */
+    position: absolute;
+    z-index: 1;
+    fill: rgb(255, 65, 65);
+    stroke-width: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+.interest-icon-container-smallFlame {
+    filter: brightness(0) saturate(100%) invert(18%) sepia(89%) saturate(5758%) hue-rotate(356deg) brightness(101%) contrast(116%);
+    position: absolute;
+    width: 3vw;
+    opacity: 0.2;
+    translate: 0vw -5vw;
+    animation: 1s smallNorthFlame infinite linear;
+    z-index: 0;
+    
+}
+
+
+@keyframes smallNorthFlame {
+    0%  { transform: translateY(0); z-index: 0} 
+    /* 92% { transform: translateY(-15vw); opacity: 0; z-index: 1} */
+    /* 96% { transform: translateY(0); opacity: 0; z-index: -1}  */
+    100%{ transform: translateY(-5vw); opacity: 1; z-index: 0}
+
+    /* 0%  { top: 0; z-index: 1;} 
+    92% { top: ; opacity: 0; }
+    96% { top: 0; opacity: 0; } 
+    100%{ opacity: 1; z-index: -1;} */
+ }
+
 
 .about-icon-meditation {
     /* top: 450px; */
@@ -43,16 +82,3 @@
 .about-icon-passions:hover {
 
 }
-
-
-.sixthanimation {
-    animation: cyclesix 12s linear infinite;
-    animation-delay: 10s;
-}
-
-@keyframes cycle {
-    0%  { left: -20vw; } 
-    92% { left: 100vw; opacity: 1; z-index: 0; }
-    96% { left: 100vw; opacity: 0; } 
-    100%{ left: -20vw; opacity: 0; }
- }

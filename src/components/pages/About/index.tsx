@@ -18,8 +18,8 @@ const About = () => {
                 {"className": "about-icon-workout", "key": "Exercise", "imageSource": "/images/workoutIcon.svg"},
                 {"className": "about-icon-passions", "key": "My Passions", "imageSource": "/images/passionsIcon.svg"},
                 {"className": "about-icon-meditation", "key": "Meditation", "imageSource": "/images/meditationIcon.svg"},
-            ]}
-            />
+            ]}/>
+            {/* <AboutValuesContainer /> */}
         </div>
     )
 }
