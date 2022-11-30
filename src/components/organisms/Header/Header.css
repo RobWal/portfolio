@@ -6,11 +6,12 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1500px) {
     .header {
-        max-height: 187px;
+        /* max-height: 187px; */
     }
 }
 
