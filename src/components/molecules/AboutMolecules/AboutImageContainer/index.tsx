@@ -10,7 +10,7 @@ const AboutImageContainer = ({imageSource}: AboutProfileImageInterface) => {
     return (
         <div className="about-image-container">
             <AboutProfileImage imageSource={imageSource} />
-            <AboutH2 text={'Hello there'}/>
+            <AboutH2 text={`Hi! `}/>
         </div>
     );
 };

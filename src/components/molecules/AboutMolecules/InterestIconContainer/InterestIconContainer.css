@@ -1,0 +1,58 @@
+.interest-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16.66vw;
+    height: 16.66svw;
+    margin: 2vw 2vw 0 2vw;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.685);
+}
+
+.about-icon-meditation {
+    /* top: 450px; */
+}
+
+.about-icon-cooking {
+    /* right: 0; */
+}
+
+.about-icon-connections {
+    /* right: 0;
+    top: 450px; */
+}
+
+.about-icon-gaming {
+    /* right: 0;
+    top: 700px; */
+}
+
+.about-icon-psychology {
+    /* top: 700px; */
+}
+
+.about-icon-workout {
+    /* top: 0; */
+}
+
+.about-icon-passions {
+    width: 24vw;
+    height: 24vw;
+}
+
+.about-icon-passions:hover {
+
+}
+
+
+.sixthanimation {
+    animation: cyclesix 12s linear infinite;
+    animation-delay: 10s;
+}
+
+@keyframes cycle {
+    0%  { left: -20vw; } 
+    92% { left: 100vw; opacity: 1; z-index: 0; }
+    96% { left: 100vw; opacity: 0; } 
+    100%{ left: -20vw; opacity: 0; }
+ }

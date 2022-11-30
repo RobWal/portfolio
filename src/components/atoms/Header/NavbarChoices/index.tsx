@@ -16,12 +16,12 @@ interface NavbarInterface {
 const NavbarChoices = (props: NavbarInterface) => {
     const [open, setOpen] = React.useState(false);
     const [dropdownClassName, setDropdownClassName] = React.useState("navbar-choices-dropdown-container-hidden");
-    let navbarChoicesContainer = document.getElementsByClassName('navbar-choices-container').item(0);
+    let navbarChoicesIcon = document.getElementsByClassName('navbar-choices-icon').item(0);
 
     useEffect(() => {
-        navbarChoicesContainer?.classList.toggle('unclickable');
+        navbarChoicesIcon?.classList.toggle('unclickable');
         setTimeout(() => {
-            navbarChoicesContainer?.classList.toggle('unclickable');
+            navbarChoicesIcon?.classList.toggle('unclickable');
         }, 400);
         if(open === true){
             document.getElementsByClassName('screen-fade-off').item(0)?.classList.replace('screen-fade-off', 'screen-fade-on');

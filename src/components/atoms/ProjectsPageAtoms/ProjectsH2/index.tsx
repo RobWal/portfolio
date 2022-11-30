@@ -6,7 +6,7 @@ type ProjectsH2Type = {
 
 const ProjectsH2 = ({text}: ProjectsH2Type) => {
     return (
-        <h1 className="projects-h2">{text}</h1>
+        <h2 className="projects-h2">{text}</h2>
     );
 };
 
