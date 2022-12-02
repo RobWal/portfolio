@@ -48,6 +48,10 @@
     100%{ opacity: 1; z-index: -1;} */
  }
 
+ .about-icon-passions {
+     width: 24vw;
+     height: 24vw;
+ }
 
 .about-icon-meditation {
     /* top: 450px; */
@@ -75,10 +79,6 @@
     /* top: 0; */
 }
 
-.about-icon-passions {
-    width: 24vw;
-    height: 24vw;
-}
 
 .about-icon-passions:hover {
 

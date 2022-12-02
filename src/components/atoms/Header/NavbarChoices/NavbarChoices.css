@@ -22,6 +22,7 @@
     height: 100%;
     opacity: 0.5;
     background-color: rgb(200, 234, 255);
+    z-index: 2;
 }
 
 .navbar-choices-icon {
@@ -50,6 +51,8 @@
     width: 175px;
     overflow: hidden;
     transition: 0.4s;
+    opacity: 1;
+    z-index: 2;
 }
 
 .navbar-choices-dropdown-container-hidden {
@@ -65,6 +68,8 @@
     overflow: hidden;
     padding-left: 175px;
     transition: 0.4s;
+    opacity: 1;
+    z-index: 2;
 }
 
 .navbar-choices-link {
@@ -83,6 +88,7 @@
     background-color: rgb(47, 137, 255);
     transition: 0.4s;
     opacity: 1;
+    z-index: 2;
 }
 
 .navbar-choices-link-hidden {
@@ -102,6 +108,7 @@
     background-color: rgb(47, 137, 255);
     transition: 0.4s;
     opacity: 1;
+    z-index: 2;
 }
 
 .navbar-choices-link:hover {
