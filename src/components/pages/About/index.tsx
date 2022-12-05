@@ -41,6 +41,10 @@ I enjoy solving problems, streamlining processes and crushing goals.`}/>
                 {"className": "about-icon-react", "key": "React", "imageSource": "/images/techStack/reactIcon.svg"},
                 {"className": "about-icon-postgresql", "key": "PostgreSQL", "imageSource": "/images/techStack/postgreSQLIcon.svg"},
                 {"className": "about-icon-nodejs", "key": "Node.js", "imageSource": "/images/techStack/nodejsIcon.svg"},
+                {"className": "about-icon-typeScript", "key": "TypeScript", "imageSource": "/images/techStack/typeScriptIcon.svg"},
+                {"className": "about-icon-python", "key": "Python", "imageSource": "/images/techStack/pythonIconSimplified.svg"},
+                {"className": "about-icon-flask", "key": "Flask", "imageSource": "/images/techStack/flaskIcon.svg"},
+
             ]}/>
             <AboutH1 text={'Like what you see?'} />
             <AboutH1 text={'Get in touch!'} />
