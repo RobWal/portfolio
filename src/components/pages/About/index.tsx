@@ -42,6 +42,8 @@ I enjoy solving problems, streamlining processes and crushing goals.`}/>
                 {"className": "about-icon-postgresql", "key": "PostgreSQL", "imageSource": "/images/techStack/postgreSQLIcon.svg"},
                 {"className": "about-icon-nodejs", "key": "Node.js", "imageSource": "/images/techStack/nodejsIcon.svg"},
             ]}/>
+            <AboutH1 text={'Like what you see?'} />
+            <AboutH1 text={'Get in touch!'} />
         </div>
     )
 }
