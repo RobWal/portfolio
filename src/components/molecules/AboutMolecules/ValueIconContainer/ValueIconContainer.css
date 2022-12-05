@@ -1,30 +1,30 @@
-.interest-icon-container {
+.value-icon-container {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 16.66vw;
     height: 16.66vw;
-    margin: 0 2.5vw 0 2.5vw;
+    margin: 0 4vw 0 4vw;
     /* border-radius: 50%; */
     /* background-color: rgba(255, 0, 0, 0.685); */
     /* z-index: 2; */
     /* opacity: 1; */
 }
 
-.circlesvg-passion {
+.circlesvg-value {
     /* width: 16.66vw;
     height: 16.66vw; */
-    /* position: absolute; */
+    position: absolute;
     z-index: 1;
-    fill: rgb(255, 65, 65);
-    /* stroke-width: 0; */
+    fill: rgb(189, 83, 255);
+    stroke-width: 0;
     opacity: 1;
     width: 100%;
     height: 100%;
 }
 
-.interest-icon-container-smallFlame {
+.values-icon-container-smallFlame {
     filter: brightness(0) saturate(100%) invert(18%) sepia(89%) saturate(5758%) hue-rotate(356deg) brightness(101%) contrast(116%);
     position: absolute;
     width: 3vw;
@@ -37,27 +37,27 @@
 
 
 
-@keyframes smallNorthFlame {
-    0%  { transform: translateY(0); opacity: 1; z-index: 0} 
+/* @keyframes smallNorthFlame { */
+    /* 0%  { transform: translateY(0); opacity: 1; z-index: 0}  */
     /* 92% { transform: translateY(-15vw); opacity: 0; z-index: 1} */
     /* 96% { transform: translateY(0); opacity: 0; z-index: -1}  */
-    100%{ transform: translateY(-5vw); opacity: 0; z-index: 0}
+    /* 100%{ transform: translateY(-5vw); opacity: 0; z-index: 0} */
 
     /* 0%  { top: 0; z-index: 1;} 
     92% { top: ; opacity: 0; }
     96% { top: 0; opacity: 0; } 
     100%{ opacity: 1; z-index: -1;} */
- }
+ /* } */
 
-.about-icon-passions {
+ .about-icon-values {
      width: 24vw;
      height: 24vw;
-}
-
-.about-icon-values {
+ }
+/* 
+ .about-icon-values {
     width: 24vw;
     height: 24vw;
-}
+} */
 
 .about-icon-meditation {
     /* top: 450px; */

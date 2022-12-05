@@ -1,4 +1,4 @@
-.about-interest-icon {
+.about-tech-stack-icon {
     width: 65%;
     position: absolute;
     opacity: 1;
@@ -6,7 +6,7 @@
     transition: 0.5s;
 }
 
-.about-interest-icon:hover {
+.about-tech-stack-icon:hover {
     transform: scale(1.05);
     transition: 0.5s;
 }

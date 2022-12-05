@@ -6,7 +6,7 @@ type AboutH1Type = {
 
 const AboutH1 = ({text}: AboutH1Type) => {
     return (
-        <div className="about-h1">{text}</div>
+        <h1 className="about-h1">{text}</h1>
     );
 };
 

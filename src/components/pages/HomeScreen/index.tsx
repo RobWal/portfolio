@@ -10,9 +10,9 @@ import './HomeScreen.css'
 const HomeScreen = () => {
     return (
         <div className="home-screen">
-            <HomepageH1 text={`Welcome to my online portfolio`} />
+            <HomepageH1 text={`Welcome to my online portfolio!`} />
             <HomepageH2 text={`I'm a full stack engineer passionate about finding the simplest most comprehensive solutions to every day problems, helping to empower people in all walks of life.`} />
-            <HomepageH1 text={'Featured Projects'} />
+            <HomepageH1 text={'Featured Project'} />
             <Featured></Featured>
             <HomepageH1 text={'Experienced with:'} />
             <PracticedInImagesContainer images={[

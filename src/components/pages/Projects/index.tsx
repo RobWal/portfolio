@@ -14,8 +14,8 @@ const Projects = () => {
 
     return (
         <div className="projects">
-            <ProjectsH1 text={`Welcome to my projects page`} />
-            <ProjectsH2 text={`A more complete, more detailed list of what I've worked on`} />
+            <ProjectsH1 text={`Welcome to my projects page!`} />
+            <ProjectsH2 text={`The following are some of the projects I've worked on.`} />
 
 
             <ProjectsProjectContainer projectName={`Deep Sea Adventure`} 

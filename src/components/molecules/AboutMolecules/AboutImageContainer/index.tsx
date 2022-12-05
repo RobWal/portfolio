@@ -4,13 +4,14 @@ import './AboutImageContainer.css';
 
 interface AboutProfileImageInterface {
     imageSource: string,
+    text: string,
 }
 
-const AboutImageContainer = ({imageSource}: AboutProfileImageInterface) => {
+const AboutImageContainer = ({imageSource, text}: AboutProfileImageInterface) => {
     return (
         <div className="about-image-container">
             <AboutProfileImage imageSource={imageSource} />
-            <AboutH2 text={`I'm a full stack engineer passionate about clean, powerful websites designed to empower users.`}/>
+            <AboutH2 text={text}/>
         </div>
     );
 };
