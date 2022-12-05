@@ -16,12 +16,12 @@ const HomeScreen = () => {
             <Featured></Featured>
             <HomepageH1 text={'Experienced with:'} />
             <PracticedInImagesContainer images={[
-                {"imageSrc":`/images/HTMLIcon.png`, "id":`first`, "className":'firstanimation'},
-                {"imageSrc":`/images/CSSIcon.png`, "id":`second`, "className":'secondanimation'},
-                {"imageSrc":`/images/JSIcon.png`, "id":`third`, "className":'thirdanimation'},
+                {"imageSrc":`/images/techStack/HTMLIcon.svg`, "id":`first`, "className":'firstanimation'},
+                {"imageSrc":`/images/techStack/CSSIcon.svg`, "id":`second`, "className":'secondanimation'},
+                {"imageSrc":`/images/techStack/javaScriptIcon.svg`, "id":`third`, "className":'thirdanimation'},
                 {"imageSrc":`/images/TypeScriptIcon.png`, "id":`fourth`, "className":'fourthanimation'},
-                {"imageSrc":`/images/PostgresIcon.png`, "id":`fifth`, "className":'fifthanimation'},
-                {"imageSrc":`/images/ReactIcon.png`, "id":`sixth`, "className":'sixthanimation'},
+                {"imageSrc":`/images/techStack/postgreSQLIcon.svg`, "id":`fifth`, "className":'fifthanimation'},
+                {"imageSrc":`/images/techStack/reactIcon.svg`, "id":`sixth`, "className":'sixthanimation'},
             ]} />
             <HomepageH1 text={'Like what you see?'} />
             <HomepageH1 text={'Get in touch!'} />

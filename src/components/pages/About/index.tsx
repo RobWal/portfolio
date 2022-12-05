@@ -33,13 +33,15 @@ I enjoy solving problems, streamlining processes and crushing goals.`}/>
                 {"className": "about-icon-integrity", "key": "Integrity", "imageSource": "/images/values/integrityIcon.svg"},
                 {"className": "about-icon-understanding", "key": "Understanding", "imageSource": "/images/values/understandingIcon.svg"},
             ]}/>
-            {/* <AboutTechStackContainer techStackContainer={[
-                {"className": "about-icon-growth", "key": "Growth", "imageSource": "/images/values/growthIcon.svg"},
-                {"className": "about-icon-honesty", "key": "Honesty", "imageSource": "/images/values/honestyIcon.svg"},
-                {"className": "about-icon-integrity", "key": "Integrity", "imageSource": "/images/values/integrityIcon.svg"},
-                {"className": "about-icon-tech-stack", "key": "Tech Stack", "imageSource": "/images/values/valuesIcon.svg"},
-                {"className": "about-icon-understanding", "key": "Understanding", "imageSource": "/images/values/understandingIcon.svg"},
-            ]}/> */}
+            <AboutTechStackContainer techStackContainer={[
+                {"className": "about-icon-html", "key": "HTML", "imageSource": "/images/techStack/HTMLIcon.svg"},
+                {"className": "about-icon-css", "key": "CSS", "imageSource": "/images/techStack/CSSIcon.svg"},
+                {"className": "about-icon-javaScript", "key": "JavaScript", "imageSource": "/images/techStack/javaScriptIcon.svg"},
+                {"className": "about-icon-tech-stack", "key": "Tech", "imageSource": "/images/techStack/techStackIcon.svg"},
+                {"className": "about-icon-react", "key": "React", "imageSource": "/images/techStack/reactIcon.svg"},
+                {"className": "about-icon-postgresql", "key": "PostgreSQL", "imageSource": "/images/techStack/postgreSQLIcon.svg"},
+                {"className": "about-icon-nodejs", "key": "Node.js", "imageSource": "/images/techStack/nodejsIcon.svg"},
+            ]}/>
         </div>
     )
 }
