@@ -33,13 +33,13 @@ I enjoy solving problems, streamlining processes and crushing goals.`}/>
                 {"className": "about-icon-integrity", "key": "Integrity", "imageSource": "/images/values/integrityIcon.svg"},
                 {"className": "about-icon-understanding", "key": "Understanding", "imageSource": "/images/values/understandingIcon.svg"},
             ]}/>
-            <AboutTechStackContainer techStackContainer={[
+            {/* <AboutTechStackContainer techStackContainer={[
                 {"className": "about-icon-growth", "key": "Growth", "imageSource": "/images/values/growthIcon.svg"},
                 {"className": "about-icon-honesty", "key": "Honesty", "imageSource": "/images/values/honestyIcon.svg"},
                 {"className": "about-icon-integrity", "key": "Integrity", "imageSource": "/images/values/integrityIcon.svg"},
                 {"className": "about-icon-tech-stack", "key": "Tech Stack", "imageSource": "/images/values/valuesIcon.svg"},
                 {"className": "about-icon-understanding", "key": "Understanding", "imageSource": "/images/values/understandingIcon.svg"},
-            ]}/>
+            ]}/> */}
         </div>
     )
 }
