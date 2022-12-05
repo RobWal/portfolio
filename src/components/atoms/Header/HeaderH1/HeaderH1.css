@@ -1,18 +1,18 @@
-@media screen and (max-width: 600px){
-    .header-h1 {
-        /* font-size: 8vmin;
-        min-width: 60%;
-        font-weight: bolder; */
-        /* height: 12.5vmin; */
-    }
-}
-
 .header-h1 {
     font-size: 5vw;
     /* min-width: 60%; */
     font-weight: bolder;
     padding: 0;
 }    
+
+@media screen and (max-width: 600px){
+    .header-h1 {
+        font-size: 6vw;
+        /* min-width: 60%; */
+        /* font-weight: bolder; */
+        /* height: 12.5vmin; */
+    }
+}
 
 @media screen and (min-width: 1500px){
     .header-h1 {

@@ -1,6 +1,7 @@
 import HeaderH1 from '../../atoms/Header/HeaderH1';
 import HeaderH2 from '../../atoms/Header/HeaderH2';
 import NavbarChoices from '../../atoms/Header/NavbarChoices';
+import SocialButton from '../../atoms/SocialButton';
 import HeaderTextAligner from '../../molecules/HeaderMolecules/HeaderTextAligner';
 // import Navbar from '../../molecules/HeaderMolecules/Navbar';
 import './Header.css'
