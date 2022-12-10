@@ -106,7 +106,7 @@ Jaunt is on hold until it's further along the development cycle to allow for mor
                 {"key": "JavaScript", "imageSource": "/images/techStack/javaScriptIcon.svg"},
             ]}
             projectTechnicals={`What's next:
-Tic Tac Toe development has finished, I don't see any changes being made at this point as there are more interesting and powerful technologies to practice that will take priority.`} 
+Tic Tac Toe development has finished, I don't see any changes being made at this point as there are more interesting and powerful technologies to practice that are taking priority.`} 
             projectImage={`/images/featuredTicTacToe.png`} projectImageAlt={'Tic Tac Toe Alternate'} projectGithubLink={`https://github.com/RobWal/TicTacToe`} 
             projectLiveLink={`https://tic-tac-toe-p9mu.onrender.com/`} projectId={`tic-tac-toe`} /> 
             <ProjectsH1 text={`Like what you see?`} />
