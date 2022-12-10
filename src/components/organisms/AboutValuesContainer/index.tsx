@@ -12,7 +12,6 @@ interface ValuesInterface {
     key: string,
     className: string,
     imageSource: string,
-    // interestName: string,
 }
 
 const AboutValuesContainer = ({valuesContainer}: ValuesContainerType) => {

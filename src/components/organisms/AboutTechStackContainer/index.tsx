@@ -14,7 +14,6 @@ interface TechStackInterface {
     key: string,
     className: string,
     imageSource: string,
-    // interestName: string,
 }
 
 const AboutTechStackContainer = ({techStackContainer}: TechStackContainerType) => {
