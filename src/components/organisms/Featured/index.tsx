@@ -7,7 +7,7 @@ const Featured = () => {
             <FeaturedProjectContainer projectName={'Deep Sea Adventure'} 
             projectInternalLink={'#deep-sea-adventure'} 
             projectGithubLink={'https://github.com/RobWal/deep-sea-adventure'} 
-            projectLiveLink={"https://deep-see-adventure.herokuapp.com/"} 
+            projectLiveLink={"https://deep-sea-adventure.onrender.com/"} 
             projectImage={"/images/featuredDeepSeaAdventure.png"} 
             projectDescription={'Deep Sea Adventure is an application designed to recreate the board game in your browser. For more information - '} 
             altProjectImageName="Deep Sea Adventure" 

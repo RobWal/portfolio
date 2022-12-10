@@ -17,52 +17,99 @@ const Projects = () => {
             <ProjectsH1 text={`Welcome to my projects page!`} />
             <ProjectsH2 text={`The following are some of the projects I've worked on.`} />
 
+{/* Technologies used - HTML, CSS, React, TypeScript, Node.js, Heroku, following atomic design methodology.  */}
 
             <ProjectsProjectContainer projectName={`Deep Sea Adventure`} 
-            projectDescription={`Deep Sea Adventure is a board game I've played many times with friends, but during the pandemic it became impossible to enjoy, so I attempted to recreate it online
-            so that we could enjoy it, no matter the distance between us. This proved more difficult than anticipated.`} 
-            projectTechnicals={`Technologies used - HTML, CSS, React, TypeScript, Node.js, Heroku, following atomic design methodology. 
-
-This project was intended to push my React boundaries within a two week time limit, which it absolutely did. The initial scope included a back end with websockets that would allow people to log in and play with friends online, but recreating all of the visual assets and fleshing out the code structure (an ongoing endeavour as unforseen limitations came up) for the game took longer than anticipated, shrinking the project scope. 
-
-The end product is a single round, single player game, though there are plans to refactor and expand on the existing code.`} 
+            projectDescription={`This project was created to allow friends to play Deep Sea Adventure anytime, even during a pandemic. Learning how to recreate a gamestate in a browser with React was amazing and very rewadring.`} 
+            projectTechStack={[
+                {"key": "HTML", "imageSource": "/images/techStack/HTMLIcon.svg"},
+                {"key": "CSS", "imageSource": "/images/techStack/CSSIcon.svg"},
+                {"key": "JavaScript", "imageSource": "/images/techStack/javaScriptIcon.svg"},
+                {"key": "React", "imageSource": "/images/techStack/reactIcon.svg"},
+                {"key": "TypeScript", "imageSource": "/images/techStack/typeScriptIcon.svg"},
+            ]}
+            projectTechnicals={`What's next: 
+-Expand on the number of rounds
+-Add virtual rooms for players to host and join
+-Add WebSockets`}
             projectImage={`/images/featuredDeepSeaAdventure.png`} projectImageAlt={'Deep Sea Adventure Tools Alternate'} projectGithubLink={`https://github.com/RobWal/deep-sea-adventure`} 
-            projectLiveLink={`https://deep-see-adventure.herokuapp.com/`} projectId={`deep-sea-adventure`} />
+            projectLiveLink={`https://deep-sea-adventure.onrender.com/`} projectId={`deep-sea-adventure`} />
             
-            <ProjectsProjectContainer projectName={`Stardew Valley Tools`} 
-            projectDescription={`Stardew Valley Tools is a work-in-progress passion project I recently began after falling in love with the game of the same name. What started as an excel spreadsheet
-            will be made available for everyone to make their playthroughs just that little bit more enjoyable.`} 
-            projectTechnicals={`Technologies used - HTML, CSS, React, TypeScript.
 
-My goals for this website are fairly large at this point, the immediate focus is creating a user-friendly front end, styled in the beautiful Stardew pixel theme, allowing users to easily work out where they should go for the best results, whether it's money, experience or completing quests.`} 
-            projectImage={`/images/featuredPlaceholder.png`} projectImageAlt={'Stardew Valley Tools Alternate'} projectGithubLink={`https://github.com/RobWal/stardew-valley-tools`} 
-            projectLiveLink={`https://RobWal.github.io`} projectId={`stardew-valley-tools`} />
+
+{/* Technologies used - HTML, CSS, Javascript, Node.js, Postgres, TailwindCSS, Heroku */}
 
             <ProjectsProjectContainer projectName={`Okay Bloomer`} 
-            projectDescription={`Okay Bloomer is a project designed to help bring crucial life or death information to beginner gardeners who don't know a philadendron from a pothos.
+            projectDescription={`This project is designed to help bring critical information to budding gardeners who don't know a philadendron from a pothos.
             Users are able to create an account to 'favourite' particular plants, granting them easy access to things like how often to water, what kind of sun it needs and how often to re pot.`} 
-            projectTechnicals={`Technologies used - HTML, CSS, Javascript, Node.js, Postgres, TailwindCSS, Heroku.
-            
-Working alongside three others in this CRUD application proved to be quite challenging, given that we knew very little about gardening. Thinking through what kind of information would be necessary, how to structure the data and how users would navigate it was quite time consuming. Grand plans were soon ihibited by a lack of freely available databases with information that was consistent both in categories and whether the category had data, making manual data entry for the database the first and most difficult pivot.`} 
+            projectTechStack={[
+                {"key": "HTML", "imageSource": "/images/techStack/HTMLIcon.svg"},
+                {"key": "CSS", "imageSource": "/images/techStack/CSSIcon.svg"},
+                {"key": "JavaScript", "imageSource": "/images/techStack/javaScriptIcon.svg"},
+                {"key": "Node.js", "imageSource": "/images/techStack/nodejsIcon.svg"},
+                // {"key": "React", "imageSource": "/images/techStack/reactIcon.svg"},
+                {"key": "PostgreSQL", "imageSource": "/images/techStack/postgreSQLIcon.svg"},
+            ]}
+            projectTechnicals={`What's next:
+-Expand the database
+-Allow 'Super User' accounts to add information
+-Create image database
+-Allow smoother site navigation`} 
             projectImage={`/images/featuredOkayBloomer.png`} projectImageAlt={'Okay Bloomer Alternate'} projectGithubLink={`https://github.com/RobWal/okay-bloomer`} 
-            projectLiveLink={`https://okay-bloomer.herokuapp.com/`} projectId={`okay-bloomer`} />
+            projectLiveLink={`https://okay-bloomer.onrender.com/`} projectId={`okay-bloomer`} />
+
+            
+            {/* `Technologies used: HTML, CSS, JavaScript, Python, Flask, Postgres, Jinja Templates. */}
             
             <ProjectsProjectContainer projectName={`Jaunt`} 
-            projectDescription={`Jaunt began in the mind of a friend of mine, born of his passion for table top role playing games. This website aimed to make Jaunt character creation and some of 
-            the rules more widely available to further streamline the Jaunt TTRPG experience.`} 
-            projectTechnicals={`Technologies used: HTML, CSS, JavaScript, Python, Flask, Postgres, Jinja Templates.
-            
-This CRUD application is one where time spent learning about development outpaced time spent working on meaningful changes, though the challenges posed and lessons learned are valuable. The main constraint with this application was my stubborn want to have it reflect the most up to date information so as to be most useful for users. However, the source project Jaunt was still in development and I relied on having consistent communication with the author, something that wasn't always possible.`} 
+            projectDescription={`Table Top Role Playing Games (TTRPG'S) can be difficult to learn and to use, this application aims to help teach newer players some rules and to play around with character creation.`} 
+            projectTechStack={[
+                {"key": "HTML", "imageSource": "/images/techStack/HTMLIcon.svg"},
+                {"key": "CSS", "imageSource": "/images/techStack/CSSIcon.svg"},
+                {"key": "JavaScript", "imageSource": "/images/techStack/javaScriptIcon.svg"},
+                {"key": "Python", "imageSource": "/images/techStack/pythonIcon.svg"},
+                {"key": "Flask", "imageSource": "/images/techStack/flaskIcon.svg"},
+                {"key": "PostgreSQL", "imageSource": "/images/techStack/postgreSQLIcon.svg"},
+            ]}
+            projectTechnicals={`What's next: 
+Jaunt is on hold until it's further along the development cycle to allow for more stable implementation`} 
             projectImage={`/images/featuredJaunt.png`} projectImageAlt={'Jaunt Alternate'} projectGithubLink={`https://github.com/RobWal/Jaunt-website`} 
-            projectLiveLink={`https://jaunt-website.herokuapp.com/home`} projectId={`jaunt`} />
+            projectLiveLink={`https://jaunt.onrender.com/home`} projectId={`jaunt`} />
+
+            {/* Technologies used - HTML, CSS, React, TypeScript. */}
+
+            <ProjectsProjectContainer projectName={`Stardew Valley Tools`} 
+            projectDescription={`This is a work in progress aimed at helping SDV players navigate the complictated, yet mostly predictable SDV world.`} 
+            projectTechStack={[
+                {"key": "HTML", "imageSource": "/images/techStack/HTMLIcon.svg"},
+                {"key": "CSS", "imageSource": "/images/techStack/CSSIcon.svg"},
+                {"key": "JavaScript", "imageSource": "/images/techStack/javaScriptIcon.svg"},
+                {"key": "React", "imageSource": "/images/techStack/reactIcon.svg"},
+                {"key": "TypeScript", "imageSource": "/images/techStack/typeScriptIcon.svg"},
+            ]}
+            projectTechnicals={`What's next:
+-Design a clean phone UI for better UX
+-Complete "Fishing Odds!" functionality
+-Complete the remaining tools
+-Add a dynamic mine/caverns map generator`}
+            projectImage={`/images/featuredPlaceholder.png`} projectImageAlt={'Stardew Valley Tools Alternate'} projectGithubLink={`https://github.com/RobWal/stardew-valley-tools`} 
+            projectLiveLink={`https://RobWal.github.io`} projectId={`stardew-valley-tools`} />
             
+{/* `Technologies used: HTML, CSS, Javascript*/}
+
+
             <ProjectsProjectContainer projectName={`Tic Tac Toe`} 
             projectDescription={`Tic Tac Toe is a nod to my humble beginnings as a developer, illustrating my appreciation for light colours and rounded fonts.`} 
+            projectTechStack={[
+                {"key": "HTML", "imageSource": "/images/techStack/HTMLIcon.svg"},
+                {"key": "CSS", "imageSource": "/images/techStack/CSSIcon.svg"},
+                {"key": "JavaScript", "imageSource": "/images/techStack/javaScriptIcon.svg"},
+            ]}
             projectTechnicals={`Technologies used: HTML, CSS, Javascript.
             
 Tic Tac Toe is a fairly straightforward app, it allows two users to play a hot seat game, keeps score of who wins, allows users to change their names, to reset the score, restart the game and toggle a move history section.`} 
             projectImage={`/images/featuredTicTacToe.png`} projectImageAlt={'Tic Tac Toe Alternate'} projectGithubLink={`https://github.com/RobWal/TicTacToe`} 
-            projectLiveLink={`https://robwal.github.io/TicTacToe/`} projectId={`tic-tac-toe`} /> 
+            projectLiveLink={`https://tic-tac-toe-p9mu.onrender.com/`} projectId={`tic-tac-toe`} /> 
             <ProjectsH1 text={`Like what you see?`} />
             <ProjectsH1 text={`Get in touch!`} />
         </div>

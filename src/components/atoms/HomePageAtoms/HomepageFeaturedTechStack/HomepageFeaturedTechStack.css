@@ -1,6 +1,8 @@
 .homepage-featured-tech-stack {
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .featured-tech-icon-container {
