@@ -44,7 +44,7 @@ const NavbarChoices = (props: NavbarInterface) => {
 
     return (
         <div key={0} className="navbar-choices-container">
-            <div className="screen-fade-off"></div>
+            <div className="screen-fade-off" onClick={()=>{setOpen(!open)}}></div>
             <img src={props.name} className="navbar-choices-icon" onClick={()=>{setOpen(!open)}}></img>
             <div id="dropdown-container" className={dropdownClassName}>
             {props.choices.map((choice: any, index: any) => {
