@@ -105,9 +105,8 @@ Jaunt is on hold until it's further along the development cycle to allow for mor
                 {"key": "CSS", "imageSource": "/images/techStack/CSSIcon.svg"},
                 {"key": "JavaScript", "imageSource": "/images/techStack/javaScriptIcon.svg"},
             ]}
-            projectTechnicals={`Technologies used: HTML, CSS, Javascript.
-            
-Tic Tac Toe is a fairly straightforward app, it allows two users to play a hot seat game, keeps score of who wins, allows users to change their names, to reset the score, restart the game and toggle a move history section.`} 
+            projectTechnicals={`What's next:
+Tic Tac Toe development has finished, I don't see any changes being made at this point as there are more interesting and powerful technologies to practice that will take priority.`} 
             projectImage={`/images/featuredTicTacToe.png`} projectImageAlt={'Tic Tac Toe Alternate'} projectGithubLink={`https://github.com/RobWal/TicTacToe`} 
             projectLiveLink={`https://tic-tac-toe-p9mu.onrender.com/`} projectId={`tic-tac-toe`} /> 
             <ProjectsH1 text={`Like what you see?`} />
