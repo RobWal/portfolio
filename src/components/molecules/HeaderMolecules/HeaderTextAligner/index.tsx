@@ -1,14 +1,12 @@
 import './HeaderTextAligner.css';
-import { useNavigate } from 'react-router-dom';
 
 type HeaderTextAlignerType = {
     components: JSX.Element[],
 }
 
 const HeaderTextAligner = ({components}: HeaderTextAlignerType) => {
-    const navigate = useNavigate();
     return (
-        <div className="header-text-aligner" onClick={() => navigate('/')}>
+        <div className="header-text-aligner">
             {components[0]}
             {components[1]}
         </div>

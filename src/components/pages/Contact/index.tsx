@@ -8,7 +8,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div className="contact">
-            <ContactH1 text={`Reach out!`} />
+            <ContactH1 text={`Contact me!`} />
             <ContactH2 text={`Find me via LinkedIn or GitHub:`} />
             <ContactSocialContainer linkedinLink={'https://www.linkedin.com/in/robert-walerczak-2524a268'} githubLink={'https://github.com/RobWal'} />
             <ContactH2 text={`Or take a look at my resume:`}/>

@@ -1,15 +1,14 @@
 import './HeaderH1.css'; 
 
-type HeaderH1 = {
+interface HeaderH1Interface {
     text: string,
     componentKey: number,
+    onClickFunction?: React.MouseEventHandler<HTMLDivElement>,
 }
 
-const HeaderH1 = ({text, componentKey}: HeaderH1) => {
+const HeaderH1 = ({text, componentKey, onClickFunction}: HeaderH1Interface) => {
     return (
-        <div key={componentKey} className="header-h1">
-            {text}
-        </div>
+        <div key={componentKey} className="header-h1" onClick={onClickFunction}>{text}</div>
     );
 };
 
