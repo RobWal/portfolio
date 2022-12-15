@@ -1,6 +1,5 @@
 .nav-download-link {
     color: black;
-    /* font-size: 1.8vmin; */
     transition: transform 0.5s;
     backface-visibility: hidden;
 }

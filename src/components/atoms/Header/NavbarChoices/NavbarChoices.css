@@ -38,6 +38,7 @@
     background-color: rgb(110, 173, 255);
     transition: 0.4s;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .navbar-choices-dropdown-container {
@@ -118,7 +119,7 @@
 
 @media screen and (max-width: 600px) {
     .navbar-choices-container {
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .navbar-choices-dropdown-container {

@@ -1,0 +1,30 @@
+.go-up-button {
+    width: 14vw;
+    height: 14vw;
+    border-radius: 4vw;
+    position: fixed;
+    right: 1vw;
+    bottom: 3vw;
+    background-color: rgb(255, 123, 191);
+    display: flex;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.4s;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-up-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.visible {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.go-up-button-image {
+    width: 70%;
+    height: 70%
+}

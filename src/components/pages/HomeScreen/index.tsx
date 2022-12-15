@@ -14,10 +14,9 @@ const HomeScreen = () => {
         <div className="home-screen">
             <HomepageH1 text={`Welcome to my online portfolio!`} />
             <HomepageH2 text={`I'm a full stack engineer passionate about finding the simplest most comprehensive solutions to every day problems, helping to empower people in all walks of life.`} />
-            {/* <TextImageLinkContainer textComponent={<HomepageH2 text={`Learn more on my About page`} />} ImageLinkComponent={<SocialButton fileName={'/images/aboutIcon.svg'} alternate={'About'} onClickFunction={() => navigate('/about')}/>} /> */}
             <TextImageLinkContainer 
                 textComponent={<HomepageH2 text={`Learn more on my About page \n or take a look at my resume`} />} 
-                ImageLinkComponent={<div className="asdasd">
+                ImageLinkComponent={<div className="image-link-component-hompepage-unique">
                     <SocialButton fileName={'/images/aboutIcon.svg'} alternate={'About'} onClickFunction={() => navigate('/about')}/>
                     <SocialButton fileName={'/images/resumeIcon.png'} alternate={'Resume'} onClickFunction={() => window.open(`/images/robertWalerczakResume.pdf`)}/>
                 </div>} />
@@ -38,7 +37,7 @@ const HomeScreen = () => {
             <HomepageH1 text={'Like what you see?'} />
             <HomepageH1 text={'Get in touch!'} />
         </div>
-    )
-}
+    );
+};
 
 export default HomeScreen;
