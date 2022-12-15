@@ -29,6 +29,7 @@
 .social-link-image:hover {
     transition: transform 0.5s;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 1300px) {
@@ -52,5 +53,14 @@
     .social-link {
         height: 8vw;
         width: 8vw;
+    }
+
+    .contact .social {
+        height: 18vw;
+        width: 18vw;
+    }
+    .contact .social-link {
+        height: 12vw;
+        width: 12vw;
     }
 }

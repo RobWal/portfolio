@@ -1,3 +1,18 @@
 .page-not-found {
-    margin: 15px 15px 115px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 2vh 0;
 }
+
+.page-not-found > h1, .page-not-found > p {
+    width: 90%;
+    margin: 5vw;
+    text-align: center;
+}
+
+/* .page-not-found > p {
+    width: 90%;
+    margin: 5vw;
+    text-align: center;
+} */

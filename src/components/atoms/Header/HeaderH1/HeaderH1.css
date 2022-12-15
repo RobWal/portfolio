@@ -14,11 +14,11 @@
     }
 }
 
-@media screen and (min-width: 1500px){
+/* @media screen and (min-width: 1500px){
     .header-h1 {
-        /* font-size: 8vmin;
+        font-size: 8vmin;
         min-width: 60%;
-        font-weight: bolder; */
-        /* height: 12.5vmin; */
+        font-weight: bolder;
+        height: 12.5vmin;
     }
-}
+} */
