@@ -1,11 +1,8 @@
-import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import './Projects.css';
 import UseHashFragment from '../../../functions/UseHashFragment';
-import H1 from '../../atoms/H1';
 import ProjectsH1 from '../../atoms/ProjectsPageAtoms/ProjectsH1';
 import ProjectsH2 from '../../atoms/ProjectsPageAtoms/ProjectsH2';
 import ProjectsProjectContainer from '../../organisms/ProjectsProjectContainer';
-import './Projects.css'
 
 const Projects = () => {
 

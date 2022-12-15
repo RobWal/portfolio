@@ -1,10 +1,12 @@
+import './About.css';
 import AboutH1 from '../../atoms/AboutAtoms/AboutH1';
 import AboutImageContainer from '../../molecules/AboutMolecules/AboutImageContainer';
-import InterestIconContainer from '../../molecules/AboutMolecules/InterestIconContainer';
 import AboutInterestsContainer from '../../organisms/AboutInterestsContainer';
 import AboutTechStackContainer from '../../organisms/AboutTechStackContainer';
 import AboutValuesContainer from '../../organisms/AboutValuesContainer';
-import './About.css'
+import TextImageLinkContainer from '../../molecules/HomepageMolecules/TextImageLinkContainer';
+import HomepageH2 from '../../atoms/HomePageAtoms/HomepageH2';
+import SocialButton from '../../atoms/SocialButton';
 
 
 const About = () => {
@@ -14,6 +16,7 @@ const About = () => {
             <AboutImageContainer imageSource={`/images/headshotSmall.png`} text={`I'm a full stack engineer passionate about clean, powerful websites designed to empower users.
 
 I enjoy solving problems, streamlining processes and crushing goals.`}/>
+            <TextImageLinkContainer textComponent={<HomepageH2 text={`Take a look at my resume for more information`} />} ImageLinkComponent={<SocialButton fileName={'/images/resumeIcon.png'} alternate={'Resume'} onClickFunction={() => window.open(`/images/robertWalerczakResume.pdf`)}/>} />
             <AboutInterestsContainer interestContainer={[
                 {"className": "about-icon-workout", "key": "Exercise", "imageSource": "/images/passions/workoutIcon.svg"},
                 {"className": "about-icon-gaming", "key": "Gaming", "imageSource": "/images/passions/gamingIcon.svg"},

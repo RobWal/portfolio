@@ -6,7 +6,7 @@ type HomepageH2Type = {
 
 const HomepageH2 = ({text}: HomepageH2Type) => {
     return (
-        <h1 className="homepage-h2">{text}</h1>
+        <h2 className="homepage-h2">{text}</h2>
     );
 };
 
