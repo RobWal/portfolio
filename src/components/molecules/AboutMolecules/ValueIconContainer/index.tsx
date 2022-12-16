@@ -16,7 +16,6 @@ const ValueIconContainer = ({imageSource, className}: ValueIconContainerInterfac
                 <circle cx="50%" cy="50%" r="49%" />
             </svg>
             <AboutValueIcon imageSource={imageSource} />
-            <img className="value-icon-container-smallFlame" src="/images/smallFlame.svg"></img>
         </div>
     );
 };

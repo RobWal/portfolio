@@ -15,7 +15,6 @@ const InterstIconContainer = ({imageSource, className}: InterestIconContainerInt
                 <circle cx="50%" cy="50%" r="49%" />
             </svg>
             <AboutInterestIcon imageSource={imageSource} />
-            <img className="interest-icon-container-smallFlame" src="/images/smallFlame.svg"></img>
         </div>
     );
 };

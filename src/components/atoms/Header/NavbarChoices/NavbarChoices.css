@@ -64,13 +64,12 @@
     right: 0px;
     top: 25vmin;
     margin: 2vw 0 0 0;
-    transition: 0.4s;
+    transition-delay: 0.4s;
     width: 175px;
     overflow: hidden;
     padding-left: 175px;
-    transition: 0.4s;
     opacity: 1;
-    z-index: 2;
+    z-index: -1;
 }
 
 .navbar-choices-link {
