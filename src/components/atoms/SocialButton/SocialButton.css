@@ -32,6 +32,15 @@
     cursor: pointer;
 }
 
+.contact .social {
+    height: 13vw;
+    width: 13vw;
+}
+.contact .social-link {
+    height: 10vw;
+    width: 10vw;
+}
+
 @media only screen and (min-width: 1300px) {
     .social {
         height: 47.7833px;
