@@ -1,5 +1,7 @@
 .projects-project-technicals {
-    font-size: 1.5vw;
+    font-size: 2.7vw;
+    margin: 4vw 2.5vw 3vw 2.5vw;
+    white-space: pre-wrap;
 }
 
 @media only screen and (max-width: 600px) {

@@ -17,7 +17,7 @@ const Projects = () => {
 {/* Technologies used - HTML, CSS, React, TypeScript, Node.js, Heroku, following atomic design methodology.  */}
 
             <ProjectsProjectContainer projectName={`Deep Sea Adventure`} 
-            projectDescription={`This project was created to allow friends to play Deep Sea Adventure anytime, even during a pandemic. Learning how to recreate a gamestate in a browser with React was amazing and very rewadring.`} 
+            projectDescription={`This project was created to allow friends to play Deep Sea Adventure anytime, even during a pandemic. Learning how to recreate a gamestate in a browser with React was amazing and very rewarding.`} 
             projectTechStack={[
                 {"key": "HTML", "imageSource": "/images/techStack/HTMLIcon.svg"},
                 {"key": "CSS", "imageSource": "/images/techStack/CSSIcon.svg"},
