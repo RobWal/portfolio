@@ -4,7 +4,7 @@
     border-radius: 4vw;
     position: fixed;
     right: 1vw;
-    bottom: 3vw;
+    bottom: 1.5vw;
     background-color: rgb(255, 152, 27);
     display: flex;
     z-index: 2;
@@ -27,4 +27,18 @@
 .go-up-button-image {
     width: 70%;
     height: 70%
+}
+
+@media screen and (max-width:600px) {
+    .go-up-button {
+        width: 14vw;
+        height: 14vw;
+        border-radius: 4vw;
+        right: 1vw;
+        bottom: 3vw;
+    }
+    .go-up-button-image {
+        width: 70%;
+        height: 70%
+    }
 }

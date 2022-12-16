@@ -17,7 +17,6 @@ const TechStackIconContainer = ({imageSource, className}: TechStackIconContainer
                 <circle cx="50%" cy="50%" r="49%" />
             </svg>
             <AboutTechStackIcon imageSource={imageSource} />
-            <img className="tech-stack-icon-container-smallFlame" src="/images/smallFlame.svg"></img>
         </div>
     );
 };

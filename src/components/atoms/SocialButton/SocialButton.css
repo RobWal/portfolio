@@ -1,9 +1,9 @@
 .social {
-    width: 5.1vmin;
-    height: 5.1vmin;
+    width: 9vmin;
+    height: 9vmin;
     background-color: white;
     margin: 1.2vmin;
-    border-radius: 1.5vmin;
+    border-radius: 2vmin;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,8 +12,8 @@
 .social-link {
     margin: 0;
     padding: 0;
-    width: 3.6vmin;
-    height: 3.6vmin;
+    width: 6vmin;
+    height: 6vmin;
     display: flex;
     align-items: center;
     justify-content: center;
