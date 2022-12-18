@@ -10,3 +10,9 @@
         font-size: 3vw;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .about-h2 {
+        font-size: 27px;
+    }
+}

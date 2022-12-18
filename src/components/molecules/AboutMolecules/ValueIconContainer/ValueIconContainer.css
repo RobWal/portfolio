@@ -3,9 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 13.66vw;
-    height: 13.66vw;
-    margin: 0 6vw 0 6vw;
+    width: 16.66vw;
+    height: 16.66vw;
+    margin: 0 4vw 0 4vw;
 }
 
 .circlesvg-value {
@@ -19,8 +19,8 @@
 }
 
 .about-icon-values {
-     width: 20vw;
-     height: 20vw;
+     width: 24vw;
+     height: 24vw;
 }
 
 @media screen and (max-width: 600px){
@@ -34,4 +34,17 @@
         width: 24vw;
         height: 24vw;
    }
+}
+
+@media screen and (min-width: 1000px){
+    .value-icon-container {
+        width: 166px;
+        height: 166px;
+        margin: 0 40px 0 40px;
+    }
+
+    .about-icon-values {
+        width: 240px;
+        height: 240px;
+    }
 }

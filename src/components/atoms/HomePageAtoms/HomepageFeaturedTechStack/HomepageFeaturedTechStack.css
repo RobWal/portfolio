@@ -38,3 +38,11 @@
         margin: 0 1vw 0 1vw;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .featured-tech-icon-container {
+        width: 80px;
+        height: 80px;
+        margin: 0 10px 0 10px;
+    }
+}

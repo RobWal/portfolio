@@ -37,8 +37,14 @@
         right: 1vw;
         bottom: 3vw;
     }
-    .go-up-button-image {
-        width: 70%;
-        height: 70%
+}
+
+@media screen and (min-width: 1000px) {
+    .go-up-button {
+        max-width: 90px;
+        max-height: 90px;
+        border-radius: 20px;
+        right: 10px;
+        bottom: 25px;
     }
 }

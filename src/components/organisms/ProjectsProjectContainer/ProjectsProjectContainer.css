@@ -7,21 +7,11 @@
     background-color: rgb(83, 192, 87);
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1000px) {
     .projects-project-container {
-        margin: 26px 0 26px 0;
-        padding: 26px;
-        height: 30vw;
-        border-radius: 26px;
-        max-width: 1350px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .projects-project-container {
-        width: 85vw;
-        border-radius: 5vw;
-        margin: 5vw;
-        padding: 3vw 2.5vw 3vw 2.5vw;
+        margin: 50px;
+        padding: 30px 25px 30px 25px;
+        border-radius: 50px;
+        max-width: 850px;
     }
 }

@@ -10,8 +10,9 @@
     }
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1000px){
     .projects-project-description {
-        font-size: 1vw;
+        font-size: 27px;
+        margin: 0 25px 60px 25px;
     }
 }

@@ -4,5 +4,12 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin: 0 0 5vw 0;
+    margin: 0 0 7vw 0;
+}
+
+@media screen and (min-width: 1000px){
+    .about-image-container {
+        margin: 0 0 70px 0;
+        max-width: 1000px;
+    }
 }

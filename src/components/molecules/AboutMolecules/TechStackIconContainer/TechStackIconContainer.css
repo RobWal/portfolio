@@ -35,3 +35,16 @@
         height: 24vw;
     }
 }
+
+@media screen and (min-width: 1000px){
+    .tech-stack-icon-container {
+        width: 136px;
+        height: 136px;
+        margin: 0 30px 0 30px;
+    }
+
+    .about-icon-tech-stack {
+        width: 200px;
+        height: 200px;
+    }
+}

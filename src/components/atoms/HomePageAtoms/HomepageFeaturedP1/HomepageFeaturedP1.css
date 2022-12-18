@@ -11,25 +11,24 @@
     color: black;
 }
 
-@media screen and (min-width: 1500px) {
-    .homepage-featured-p1 {
-        font-size: 16.866px;
-    }
-}
-
-@media screen and (min-width: 1500px) {
-    .homepage-featured-internal-link {
-        font-size: 16.866px;
-    }
-}
-
-
 @media screen and (max-width: 600px) {
     .homepage-featured-p1 {
         font-size: 3vw;
     }
-
+    
     .homepage-featured-internal-link {
         font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .homepage-featured-p1 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .homepage-featured-internal-link {
+        font-size: 18px;
     }
 }

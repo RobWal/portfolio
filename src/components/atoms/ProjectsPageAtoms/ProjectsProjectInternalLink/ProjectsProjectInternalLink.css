@@ -18,12 +18,10 @@
 
 @media only screen and (max-width: 600px) {
     .projects-project-internal-link-description {
-        /* text-align: center; */
         font-size: 2.7vw;
     }
 
     .projects-project-internal-link {
         font-size: 2.7vw;
-        /* text-align: center; */
     }
 }

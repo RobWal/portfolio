@@ -1,6 +1,6 @@
 .social {
-    width: 9vmin;
-    height: 9vmin;
+    width: 9vw;
+    height: 9vw;
     background-color: white;
     margin: 1.2vmin;
     border-radius: 2vmin;
@@ -12,8 +12,8 @@
 .social-link {
     margin: 0;
     padding: 0;
-    width: 6vmin;
-    height: 6vmin;
+    width: 6vw;
+    height: 6vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,24 +32,15 @@
     cursor: pointer;
 }
 
-.contact .social {
-    height: 13vw;
-    width: 13vw;
-}
-.contact .social-link {
-    height: 10vw;
-    width: 10vw;
-}
-
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1000px) {
     .social {
-        height: 47.7833px;
-        width: 47.7833px;
-        border-radius: 14.055px;
+        height: 90px;
+        width: 90px;
+        border-radius: 20px;
     }
     .social-link {
-        height: 31.37167px;
-        width: 31.37167px;
+        height: 60px;
+        width: 60px;
     }
 }
 

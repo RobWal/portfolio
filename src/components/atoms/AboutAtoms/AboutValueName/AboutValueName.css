@@ -11,3 +11,10 @@
         font-size: 3vw;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .about-value-name {
+        margin: 0 0 25px 0;
+        font-size: 25px;
+    }
+}

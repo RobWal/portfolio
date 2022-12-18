@@ -1,22 +1,21 @@
 .homepage-h1 {
-    margin: 10vw 0 3vw 0;
+    margin: 10vw 0 5vw 0;
     text-align: center;
     width: 90%;
     font-size: 4vw;
 }
 
-
-@media screen and (min-width: 1500px) {
-    .homepage-h1 {
-        margin: 4vw 0 2vw 0;
-        font-size: 4.2vmin;
-    }
-}
-
 @media screen and (max-width: 600px){
     .homepage-h1 {
         font-size: 5vw;
-        margin: 10vw 0 3vw 0;
+        margin: 10vw 0 5vw 0;
         max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .homepage-h1 {
+        margin: 100px 0 50px 0;
+        font-size: 40px;
     }
 }

@@ -11,3 +11,9 @@
         font-size: 3vw;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .about-tech-stack-name {
+        font-size: 25px;
+    }
+}
