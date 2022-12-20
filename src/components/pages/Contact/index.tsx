@@ -12,7 +12,7 @@ const Contact = () => {
             <ContactH2 text={`Find me via LinkedIn or GitHub:`} />
             <ContactSocialContainer linkedinLink={'https://www.linkedin.com/in/robert-walerczak-2524a268'} githubLink={'https://github.com/RobWal'} />
             <ContactH2 text={`Or take a look at my resume:`}/>
-            <SocialButton fileName={'/images/resumeIcon.png'} onClickFunction={() => window.open(`/images/robertWalerczakResume.pdf`)} alternate={'Resume'} />
+            <SocialButton fileName={'/images/resumeIcon.png'} onClickFunction={() => window.open(`/images/Robert-Walerczak-Resume.pdf`)} alternate={'Resume'} />
         </div>
     );
 };
