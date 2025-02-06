@@ -1,5 +1,5 @@
 .projects-project-name {
-    font-size: 4vw;
+    font-size: 3.5vw;
     float: left;
     width: 40vw; 
     margin: 0 0 6vw 0;
@@ -8,7 +8,7 @@
 
 @media only screen and (min-width: 1000px) {
     .projects-project-name {
-        font-size: 40px;
+        font-size: 35px;
         width: 400px; 
         margin: 0 0 60px 0;
     }
