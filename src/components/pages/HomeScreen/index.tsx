@@ -15,7 +15,7 @@ const HomeScreen = () => {
             <HomepageH1 text={`Welcome to my online portfolio!`} />
             <HomepageH2 text={`I'm a full stack engineer passionate about finding the simplest most comprehensive solutions to every day problems, helping to empower people in all walks of life.`} />
             <TextImageLinkContainer 
-                textComponent={<HomepageH2 text={`Learn more on my About page \n or take a look at my resume`} />} 
+                textComponent={<HomepageH2 text={`Learn more on my About page \n or take a look at my resume.`} />} 
                 ImageLinkComponent={<div className="image-link-component-hompepage-unique">
                     <SocialButton fileName={'/images/aboutIcon.svg'} alternate={'About'} onClickFunction={() => navigate('/about')}/>
                     <SocialButton fileName={'/images/resumeIcon.png'} alternate={'Resume'} onClickFunction={() => window.open(`/images/Robert-Walerczak-Resume.pdf`)}/>
